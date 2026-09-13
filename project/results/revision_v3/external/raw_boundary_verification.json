@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "origins": 92976,
+  "boundaries_checked": 1115712,
+  "method": "independent raw timestamp searchsorted; every input and target uses last raw observation within its own right-closed 15-minute bin",
+  "script_sha256": "cd73ed5629ef84433282d04b93c38749e107e839d1e42ad34039ff0074ff2546"
+}

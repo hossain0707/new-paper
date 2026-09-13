@@ -1,0 +1,18 @@
+{
+  "dataset": "DiaData",
+  "sha256": "dfae4f810897c53ad9772b23e5795e42b5015ca64cf9d17f7872848ac59b721a",
+  "excluded_DDATSHR_subjects": 18,
+  "timezone": "as supplied by source; no inferred timezone conversion",
+  "upstream": "raw 15-minute export; no local imputation",
+  "history_minutes": 240,
+  "channels": [
+    "glucose_mgdl",
+    "hr_bpm",
+    "tod_sin",
+    "tod_cos"
+  ],
+  "samples": 9510,
+  "input_lag_minutes": 15,
+  "patients": 26,
+  "array_sha256": "bcb0ea5b721fe056030c6556858d613ad7cd3a5056f3c982be57c0685c254e0a"
+}

@@ -1,0 +1,38 @@
+{
+  "identity": {
+    "array_sha256": "2f648fb889ad243e0491b3778c588da1dceafb0aa038a3f7764f65000d3be611",
+    "training_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "max_epochs": 80
+  },
+  "dataset": "ddatshr",
+  "test_subject": "918",
+  "validation_subject": "981",
+  "train_subjects": [
+    "926",
+    "907",
+    "929",
+    "990",
+    "944",
+    "995",
+    "962",
+    "987",
+    "941",
+    "974",
+    "914",
+    "943",
+    "903",
+    "976",
+    "959"
+  ],
+  "model": "Ridge",
+  "seed": 42,
+  "condition": "cgm_hr",
+  "config": {
+    "alpha": 10.0,
+    "inner_MAE": 33.383296966552734
+  },
+  "train_n": 54929,
+  "validation_n": 3964,
+  "test_n": 3751,
+  "duration_s": 0.9563088417053223
+}

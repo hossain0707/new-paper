@@ -1,0 +1,8 @@
+{
+  "status": "prepared_not_published",
+  "files_and_archive_members_scanned": 4698,
+  "credential_pattern_matches": [],
+  "source_commit": "d8dd4fc0dac571387021ca0350d6dce483314527",
+  "original_supplement_sha256": "7cf5371acd20605de37318b007958600bac2ad2a9b357525773d83ab343e7c20",
+  "note": "Pattern scan plus allowlisted packaging; not a guarantee against every possible sensitive value."
+}

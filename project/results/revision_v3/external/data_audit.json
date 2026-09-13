@@ -1,0 +1,11 @@
+{
+  "archive_sha256": "2c6b4183fdc729c708c1b3230ab1988d2c9006dd35729537f2de07f649f0d113",
+  "array_sha256": "4127ad10cb61a3e0e35b559e48a8346560dceeda9231ffa4d245917da38dae91",
+  "metadata_sha256": "63c3509c8f4c366912ab97213d955a76d7fa3b12df6a504d85feed4858983b85",
+  "preparation_sha256": "c03a2be97b6b9f28a9f6a24da18a1dd7e7137a345927f94c7413806df6ce0116",
+  "patients": 24,
+  "origins": 92976,
+  "timezone": "provider local Arizona; no conversion; no calendar covariates",
+  "interpolation": false,
+  "clock_note": "Provider timestamps minute-resolved; last observed value in right-closed 15-minute bin."
+}

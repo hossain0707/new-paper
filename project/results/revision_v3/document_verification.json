@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pages": 16,
+  "text_outside_page_bounds": [],
+  "visual_checks": "Final pages 1 and 12 inspected; equation and new tables also inspected during layout review. Figure 7 caption kept on its figure page. Original title retained.",
+  "pdf_sha256": "0f1451f508c8c93dc0f433281f9bb5080b04ad93f6ade07c0bb107434f0dfcc3",
+  "docx_sha256": "93cdb81141b8949d36bc007d138c14a7734236d50972f57489cc7e1bc683ce82"
+}

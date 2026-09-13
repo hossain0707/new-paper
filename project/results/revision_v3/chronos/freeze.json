@@ -1,0 +1,13 @@
+{
+  "model": "amazon/chronos-2",
+  "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+  "package": "2.3.2",
+  "transformers": "4.57.3",
+  "torch": "2.7.0a0+7c8ec84dab.nv25.03",
+  "cross_learning": false,
+  "context_length": 9,
+  "quantile": 0.5,
+  "batch_size": 256,
+  "script_sha256": "38cce746e7d4e60fc6f135b06e1103aafbf78431db4e8cc537b12b1fc02a2c92",
+  "pretraining_overlap": "unknown; not an independently uncontaminated benchmark"
+}

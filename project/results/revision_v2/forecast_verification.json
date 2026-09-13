@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "ddatshr: all patient/model/seed/condition splits and targets matched; representative checkpoints reproduced predictions",
+    "diadata: all patient/model/seed/condition splits and targets matched; representative checkpoints reproduced predictions",
+    "All per-patient MAE/RMSE cells independently recalculated from saved predictions"
+  ],
+  "primary_fits": 1656,
+  "status": "passed",
+  "prediction_sha256": "be10602718febc725896027f94a69804c0e3b7c530a965e3e05ed947053cc187",
+  "metrics_sha256": "7a693d0a0d0a9c7b4e96c07c4f40c06dccd4be21025dba5db71d1cdc8b8f4eb0",
+  "experiment_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "Development artifacts and stack weights frozen before AZT1D scoring; hashes unchanged",
+    "All 276 sensitivity fits: three validation patients, disjoint splits, complete unchanged test origins and observed targets",
+    "Every AZT1D model/seed has identical complete origins and targets; all patient MAE/RMSE and stack predictions independently recalculated",
+    "All 18 external checkpoints reloaded and reproduced original 2048-example inference batch"
+  ],
+  "freeze_sha256": "033f8dcb689376afaf7727350b9b4a4482a01c9ab3d9adf0b26d376a739b65c9",
+  "predictions_sha256": "a4c660d220b841c441acadd5f8e82dec609953298e3c0413c6632eb739a665e1"
+}

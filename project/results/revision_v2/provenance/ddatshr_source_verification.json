@@ -1,0 +1,30 @@
+{
+  "repository": "ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate",
+  "commit": "36379d9397d05bb00ac20cf91a5a2b648fecfafe",
+  "files": [
+    {
+      "file": "Abbott.csv",
+      "sha256": "2ecfef7a245aff65e24720f748121cefce61a1108d91a2996f71c52571e5a9ef",
+      "git_blob": "369d412f46e3cc20ddb63d3c7205611baec6b214",
+      "bytes": 3994344
+    },
+    {
+      "file": "Medtronic.csv",
+      "sha256": "8186202f9e9340e1119cf418a5b74cad9fbd2476827c32078eae289dd1bb6e52",
+      "git_blob": "85b89fd084c3fe15dc26c9aed9a55b4c4d858689",
+      "bytes": 30928378
+    },
+    {
+      "file": "population.csv",
+      "sha256": "32182146816e939d33821f18d89820d4c170defd62ca3d95bb93e133ad49c8c0",
+      "git_blob": "c5a75a06742c4ee55ca66e454d8e241b08c19474",
+      "bytes": 2645
+    },
+    {
+      "file": "Fitbit/Fitbit-heart-rate.csv",
+      "sha256": "43e70a00196d5e22581151c56875d4f7e7bc8bbcf492ef91c2777fbf5b3feadf",
+      "git_blob": "1c5174076388145fa0825a2780042aa78d524cd6",
+      "bytes": 144549011
+    }
+  ]
+}

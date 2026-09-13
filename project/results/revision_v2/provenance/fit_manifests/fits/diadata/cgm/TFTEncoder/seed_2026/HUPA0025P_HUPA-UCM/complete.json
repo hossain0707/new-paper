@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "array_sha256": "54a12bfb016944a999ef51be91f749ba48c51b95c895b3a3d6bea1f893a4a35d",
+    "training_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "max_epochs": 80
+  },
+  "dataset": "diadata",
+  "test_subject": "HUPA0025P_HUPA-UCM",
+  "validation_subject": "HUPA0007P_HUPA-UCM",
+  "train_subjects": [
+    "HUPA0018P_HUPA-UCM",
+    "HUPA0028P_HUPA-UCM",
+    "HUPA0011P_HUPA-UCM",
+    "002_D1NAMO",
+    "HUPA0023P_HUPA-UCM",
+    "HUPA0020P_HUPA-UCM",
+    "HUPA0015P_HUPA-UCM",
+    "HUPA0003P_HUPA-UCM",
+    "HUPA0001P_HUPA-UCM",
+    "001_D1NAMO",
+    "HUPA0002P_HUPA-UCM",
+    "005_D1NAMO",
+    "HUPA0021P_HUPA-UCM",
+    "HUPA0016P_HUPA-UCM",
+    "007_D1NAMO",
+    "008_D1NAMO",
+    "HUPA0004P_HUPA-UCM",
+    "006_D1NAMO",
+    "HUPA0006P_HUPA-UCM",
+    "HUPA0022P_HUPA-UCM",
+    "HUPA0014P_HUPA-UCM",
+    "HUPA0024P_HUPA-UCM",
+    "004_D1NAMO",
+    "HUPA0026P_HUPA-UCM",
+    "HUPA0017P_HUPA-UCM",
+    "HUPA0005P_HUPA-UCM",
+    "HUPA0027P_HUPA-UCM"
+  ],
+  "model": "TFTEncoder",
+  "seed": 2026,
+  "condition": "cgm",
+  "config": {
+    "lr": 0.001,
+    "epoch": 26,
+    "inner_MAE": 35.948036193847656
+  },
+  "train_n": 14073,
+  "validation_n": 227,
+  "test_n": 200,
+  "duration_s": 34.055898666381836
+}

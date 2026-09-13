@@ -1,0 +1,515 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        18
+      ]
+    ],
+    "date-time": "2026-07-18T16:18:40Z",
+    "timestamp": 1784391520068,
+    "version": "3.55.0"
+  },
+  "reference-count": 30,
+  "publisher": "MDPI AG",
+  "issue": "8",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2026-04-17T00:00:00Z",
+        "timestamp": 1776384000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Significance and Potential Risks of Artificial Intelligence for Healthcare",
+      "award": [
+        "K\u041f-06-H85-7/05.12.2024"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "K\u041f-06-H85-7/05.12.2024"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Applied Sciences"
+  ],
+  "abstract": "<jats:p>Managing blood glucose in type 1 diabetes (T1D) remains a daily clinical challenge, and accurate short-term prediction of glucose levels can meaningfully improve insulin dosing decisions while reducing the risk of dangerous hypoglycaemic episodes. Although numerous machine learning approaches have been proposed for this task, comparing their relative merits is difficult because published studies differ widely in datasets, preprocessing choices, and evaluation criteria. In this work, we address this research gap by benchmarking ten machine learning methods\u2014from a na\u00efve persistence baseline through classical linear regressors, gradient-boosted ensembles, and recurrent neural networks to a novel hybrid that couples LightGBM with stochastic differential equation (SDE)-based glucose\u2013insulin simulation\u2014on two multi-patient datasets comprising 34 T1D subjects, across prediction horizons of 15, 30, 60, and 120 min. Every method is trained and tested under identical preprocessing and temporal splitting conditions to ensure a fair comparison. The proposed Hybrid LightGBM-SDE model consistently outperforms all alternatives, recording RMSE values of 22.42 mg/dL at 15 min, 28.74 mg/dL at 30 min, 33.89 mg/dL at 60 min, and 37.22 mg/dL at 120 min\u2014an improvement of between 13.6% and 27.0% relative to standalone LightGBM. At the clinically important 30 min horizon, 99.7% of predictions lie within the acceptable A and B zones of the Clarke Error Grid. Wilcoxon signed-rank tests confirm that performance differences are statistically significant (p &lt; 10\u221210), and SHAP-based analysis shows that the SDE-derived simulation features are among the most influential predictors, especially at longer horizons. All source code and evaluation scripts are publicly released to support reproducibility. Due to temporary data access constraints, all experiments reported here use physics-based synthetic datasets generated from the Bergman minimal model, replicating the structural properties of the D1NAMO and HUPA-UCM collections; validation on the original clinical recordings is planned. Among the two synthetic datasets, the D1NAMO-equivalent cohort (nine patients) proves more challenging, with systematically higher per-patient RMSE variance. The clinically acceptable prediction accuracy at the 30 min horizon (99.7% in Clarke zones A + B) suggests potential for integration into insulin dosing decision-support systems.</jats:p>",
+  "DOI": "10.3390/app16083928",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        17
+      ]
+    ],
+    "date-time": "2026-04-17T16:30:36Z",
+    "timestamp": 1776443436000
+  },
+  "page": "3928",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "title": [
+    "A Comprehensive Benchmark of Machine Learning Methods for Blood Glucose Prediction in Type 1 Diabetes: A Multi-Dataset Evaluation"
+  ],
+  "prefix": "10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "given": "Mikhail",
+      "family": "Kolev",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Mathematics, University of Architecture, Civil Engineering and Geodesy, 1 Hristo Smirnenski Blvd., 1164 Sofia, Bulgaria"
+        },
+        {
+          "name": "Department of Applied Computer Science and Mathematical Modelling, Faculty of Mathematics and Computer Science, University of Warmia and Mazury in Olsztyn, 10-719 Olsztyn, Poland"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0009-7794-4265",
+      "authenticated-orcid": false,
+      "given": "Irina",
+      "family": "Naskinova",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mathematics, University of Architecture, Civil Engineering and Geodesy, 1 Hristo Smirnenski Blvd., 1164 Sofia, Bulgaria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1756-3358",
+      "authenticated-orcid": false,
+      "given": "Mariyan",
+      "family": "Milev",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mathematics, University of Architecture, Civil Engineering and Geodesy, 1 Hristo Smirnenski Blvd., 1164 Sofia, Bulgaria"
+        },
+        {
+          "name": "Department of Statistics and Econometrics, Faculty of Economics and Business Administration, Sofia University St. Kliment Ohridski, 125 Tsarigradsko Shosse Blvd., bl. 3, 1113 Sofia, Bulgaria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Stanislava",
+      "family": "Stoilova",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mathematics, University of Architecture, Civil Engineering and Geodesy, 1 Hristo Smirnenski Blvd., 1164 Sofia, Bulgaria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Iveta",
+      "family": "Nikolova",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mathematics, University of Architecture, Civil Engineering and Geodesy, 1 Hristo Smirnenski Blvd., 1164 Sofia, Bulgaria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        17
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "741",
+      "DOI": "10.1016/S2213-8587(22)00218-2",
+      "article-title": "Global incidence, prevalence, and mortality of type 1 diabetes in 2021 with projection to 2040: A modelling study",
+      "volume": "10",
+      "author": "Gregory",
+      "year": "2022",
+      "journal-title": "Lancet Diabetes Endocrinol."
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1593",
+      "DOI": "10.2337/dci19-0028",
+      "article-title": "Clinical targets for continuous glucose monitoring data interpretation: Recommendations from the international consensus on time in range",
+      "volume": "42",
+      "author": "Battelino",
+      "year": "2019",
+      "journal-title": "Diabetes Care"
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "e2833",
+      "DOI": "10.1002/cnm.2833",
+      "article-title": "A review of personalized blood glucose prediction strategies for T1DM patients",
+      "volume": "33",
+      "author": "Oviedo",
+      "year": "2017",
+      "journal-title": "Int. J. Numer. Methods Biomed. Eng."
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "first-page": "109",
+      "DOI": "10.1016/j.artmed.2019.07.007",
+      "article-title": "Data-driven modeling and prediction of blood glucose dynamics: Machine learning applications in type 1 diabetes",
+      "volume": "98",
+      "author": "Woldaregay",
+      "year": "2019",
+      "journal-title": "Artif. Intell. Med."
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "3101",
+      "DOI": "10.1109/TBME.2020.2975959",
+      "article-title": "Benchmarking machine learning algorithms on blood glucose prediction for type I diabetes in comparison with classical time-series models",
+      "volume": "67",
+      "author": "Xie",
+      "year": "2020",
+      "journal-title": "IEEE Trans. Biomed. Eng."
+    },
+    {
+      "key": "ref_6",
+      "first-page": "E667",
+      "article-title": "Quantitative estimation of insulin sensitivity",
+      "volume": "236",
+      "author": "Bergman",
+      "year": "1979",
+      "journal-title": "Am. J. Physiol."
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "622",
+      "DOI": "10.2337/diacare.10.5.622",
+      "article-title": "Evaluating clinical accuracy of systems for self-monitoring of blood glucose",
+      "volume": "10",
+      "author": "Clarke",
+      "year": "1987",
+      "journal-title": "Diabetes Care"
+    },
+    {
+      "key": "ref_8",
+      "doi-asserted-by": "crossref",
+      "first-page": "931",
+      "DOI": "10.1109/TBME.2006.889774",
+      "article-title": "Glucose concentration can be predicted ahead in time from continuous glucose monitoring sensor time-series",
+      "volume": "54",
+      "author": "Sparacino",
+      "year": "2007",
+      "journal-title": "IEEE Trans. Biomed. Eng."
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "first-page": "71",
+      "DOI": "10.1109/TITB.2012.2219876",
+      "article-title": "Multivariate prediction of subcutaneous glucose concentration in type 1 diabetes patients based on support vector regression",
+      "volume": "17",
+      "author": "Georga",
+      "year": "2013",
+      "journal-title": "IEEE J. Biomed. Health Inform."
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chen, T., and Guestrin, C. (2016, January 13\u201317). XGBoost: A scalable tree boosting system. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA.",
+      "DOI": "10.1145/2939672.2939785"
+    },
+    {
+      "key": "ref_11",
+      "unstructured": "Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., and Liu, T.-Y. (2017, January 4\u20139). LightGBM: A highly efficient gradient boosting decision tree. Proceedings of the 31st International Conference on Neural Information Processing Systems (NeurIPS), Long Beach, CA, USA. Available online: https://proceedings.neurips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree."
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "first-page": "414",
+      "DOI": "10.1109/JBHI.2019.2931842",
+      "article-title": "GluNet: A deep learning framework for accurate glucose forecasting",
+      "volume": "24",
+      "author": "Li",
+      "year": "2020",
+      "journal-title": "IEEE J. Biomed. Health Inform."
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sun, Q., Jankovic, M.V., Bally, L., and Mougiakakou, S.G. (2018, January 20\u201322). Predicting blood glucose with an LSTM and Bi-LSTM based deep neural network. Proceedings of the 14th Symposium on Neural Networks and Applications (NEUREL), Belgrade, Serbia.",
+      "DOI": "10.1109/NEUREL.2018.8586990"
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1007/s41666-019-00059-y",
+      "article-title": "Blood glucose prediction with variance estimation using recurrent neural networks",
+      "volume": "4",
+      "author": "Martinsson",
+      "year": "2020",
+      "journal-title": "J. Healthc. Inform. Res."
+    },
+    {
+      "key": "ref_15",
+      "doi-asserted-by": "crossref",
+      "first-page": "26",
+      "DOI": "10.1177/1932296813514502",
+      "article-title": "The UVA/PADOVA type 1 diabetes simulator: New features",
+      "volume": "8",
+      "author": "Micheletto",
+      "year": "2014",
+      "journal-title": "J. Diabetes Sci. Technol."
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "first-page": "401",
+      "DOI": "10.1007/s10928-004-8323-8",
+      "article-title": "Grey-box modelling of pharmacokinetic/pharmacodynamic systems",
+      "volume": "31",
+      "author": "Jacobsen",
+      "year": "2004",
+      "journal-title": "J. Pharmacokinet. Pharmacodyn."
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "first-page": "2744",
+      "DOI": "10.1109/JBHI.2020.3040225",
+      "article-title": "Deep learning for diabetes: A systematic review",
+      "volume": "25",
+      "author": "Zhu",
+      "year": "2021",
+      "journal-title": "IEEE J. Biomed. Health Inform."
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "first-page": "92",
+      "DOI": "10.1016/j.imu.2018.09.003",
+      "article-title": "The open D1NAMO dataset: A multi-modal dataset for research on non-invasive type 1 diabetes management",
+      "volume": "13",
+      "author": "Dubosson",
+      "year": "2018",
+      "journal-title": "Inform. Med. Unlocked"
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "110559",
+      "DOI": "10.1016/j.dib.2024.110559",
+      "article-title": "HUPA-UCM Diabetes Dataset",
+      "volume": "55",
+      "author": "Hidalgo",
+      "year": "2024",
+      "journal-title": "Data Brief"
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "1735",
+      "DOI": "10.1162/neco.1997.9.8.1735",
+      "article-title": "Long short-term memory",
+      "volume": "9",
+      "author": "Hochreiter",
+      "year": "1997",
+      "journal-title": "Neural Comput."
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Cho, K., van Merri\u00ebnboer, B., Gulcehre, C., Bahdanau, D., Bougares, F., Schwenk, H., and Bengio, Y. (2014, January 25\u201329). Learning phrase representations using RNN encoder-decoder for statistical machine translation. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), Doha, Qatar.",
+      "DOI": "10.3115/v1/D14-1179"
+    },
+    {
+      "key": "ref_22",
+      "unstructured": "Lundberg, S.M., and Lee, S.I. (2017, January 4\u20139). A unified approach to interpreting model predictions. Proceedings of the 31st International Conference on Neural Information Processing Systems (NeurIPS), Long Beach, CA, USA. Available online: https://proceedings.neurips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions."
+    },
+    {
+      "key": "ref_23",
+      "unstructured": "Grinsztajn, L., Oyallon, E., and Varoquaux, G. (December, January 28). Why do tree-based models still outperform deep learning on typical tabular data?. Proceedings of the 36th International Conference on Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA. Available online: https://proceedings.neurips.cc/paper_files/paper/2022/hash/0378c7692da36807bdec87ab043cdadc-Abstract-Datasets_and_Benchmarks.html."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Arik, S.\u00d6., and Pfister, T. (2021, January 2\u20139). TabNet: Attentive interpretable tabular learning. Proceedings of the AAAI Conference on Artificial Intelligence, Virtual.",
+      "DOI": "10.1609/aaai.v35i8.16826"
+    },
+    {
+      "key": "ref_25",
+      "unstructured": "Gorishniy, Y., Rubachev, I., Khrulkov, V., and Babenko, A. (2021, January 6\u201314). Revisiting deep learning models for tabular data. Proceedings of the 35th International Conference on Neural Information Processing Systems (NeurIPS), Virtual. Available online: https://proceedings.neurips.cc/paper/2021/hash/9d86d83f925f2149e9edb0ac3b49229c-Abstract.html."
+    },
+    {
+      "key": "ref_26",
+      "unstructured": "Huang, X., Khetan, A., Cvitkovic, M., and Karnin, Z. (2020). TabTransformer: Tabular data modeling using contextual embeddings. arXiv."
+    },
+    {
+      "key": "ref_27",
+      "unstructured": "U.S. Food and Drug Administration (2026, March 20). Artificial Intelligence/Machine Learning (AI/ML)-Based Software as a Medical Device (SaMD) Action Plan, Available online: https://www.fda.gov/media/145022/download."
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mitev, P. (2025). Development of a System for Flexible Feeding of Parts with Robot and Machine Vision. Eng. Proc., 104.",
+      "DOI": "10.3390/engproc2025104084"
+    },
+    {
+      "key": "ref_29",
+      "first-page": "060017",
+      "article-title": "Development of a system for automatic feeding and orientation of cylindrical parts",
+      "volume": "3063",
+      "author": "Mitev",
+      "year": "2024",
+      "journal-title": "AIP Conf. Proc."
+    },
+    {
+      "key": "ref_30",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mitev, P., Tashev, A., and Stoyanov, Y. (2025). Design and Construction of an Engine Oil Viscosity Meter with Electronic Control. Eng. Proc., 100.",
+      "DOI": "10.3390/engproc2025100055"
+    }
+  ],
+  "container-title": [
+    "Applied Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2076-3417/16/8/3928/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        17
+      ]
+    ],
+    "date-time": "2026-04-17T16:40:21Z",
+    "timestamp": 1776444021000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2076-3417/16/8/3928"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        17
+      ]
+    ]
+  },
+  "references-count": 30,
+  "journal-issue": {
+    "issue": "8",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "app16083928"
+  ],
+  "URL": "https://doi.org/10.3390/app16083928",
+  "relation": {},
+  "ISSN": [
+    "2076-3417"
+  ],
+  "issn-type": [
+    {
+      "value": "2076-3417",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        17
+      ]
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "array_sha256": "cbe727f2edf45ab0145774e03f235f34d2fa7c13c82d49c340c98a3d0458c7d9",
+    "training_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "max_epochs": 80
+  },
+  "dataset": "ddatshr",
+  "test_subject": "941",
+  "validation_subject": "987",
+  "train_subjects": [
+    "976",
+    "944",
+    "926",
+    "959",
+    "990",
+    "914",
+    "962",
+    "995",
+    "929",
+    "918",
+    "907",
+    "981",
+    "903",
+    "974",
+    "943"
+  ],
+  "model": "BiLSTMTransformer",
+  "seed": 1729,
+  "condition": "cgm_hr",
+  "config": {
+    "lr": 0.001,
+    "epoch": 10,
+    "inner_MAE": 29.456235885620117
+  },
+  "train_n": 65191,
+  "validation_n": 1539,
+  "test_n": 5684,
+  "duration_s": 62.402462005615234
+}

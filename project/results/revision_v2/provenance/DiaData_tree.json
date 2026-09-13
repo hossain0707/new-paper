@@ -1,0 +1,55 @@
+{
+  "sha": "1f87cb4aa7fdbccf3953401a11f5936829d2d8dc",
+  "url": "https://api.github.com/repos/Beyza-Cinar/DiaData/git/trees/1f87cb4aa7fdbccf3953401a11f5936829d2d8dc",
+  "tree": [
+    {
+      "path": ".DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bdb1e2616a4ade1f3b96a4060556602acf33ce1",
+      "size": 10244,
+      "url": "https://api.github.com/repos/Beyza-Cinar/DiaData/git/blobs/9bdb1e2616a4ade1f3b96a4060556602acf33ce1"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f21daa16c143a25746713b2bc5da91dbfb6a697f",
+      "size": 45,
+      "url": "https://api.github.com/repos/Beyza-Cinar/DiaData/git/blobs/f21daa16c143a25746713b2bc5da91dbfb6a697f"
+    },
+    {
+      "path": "Data_Exploration.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eba4f593e9082f839ce17818dc966048353c23d",
+      "size": 756963,
+      "url": "https://api.github.com/repos/Beyza-Cinar/DiaData/git/blobs/1eba4f593e9082f839ce17818dc966048353c23d"
+    },
+    {
+      "path": "LICENSE-CC-BY-NC 4.0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428e59536b10170c4e7412b803db164f0002e4c6",
+      "size": 19342,
+      "url": "https://api.github.com/repos/Beyza-Cinar/DiaData/git/blobs/428e59536b10170c4e7412b803db164f0002e4c6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902efafe4efc171afaeb5c137f93e9152f651a2b",
+      "size": 9771,
+      "url": "https://api.github.com/repos/Beyza-Cinar/DiaData/git/blobs/902efafe4efc171afaeb5c137f93e9152f651a2b"
+    },
+    {
+      "path": "data_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdea7448a4f0338cc3653dbaf6ffa5e222accabf",
+      "size": 61562,
+      "url": "https://api.github.com/repos/Beyza-Cinar/DiaData/git/blobs/fdea7448a4f0338cc3653dbaf6ffa5e222accabf"
+    }
+  ],
+  "truncated": false
+}

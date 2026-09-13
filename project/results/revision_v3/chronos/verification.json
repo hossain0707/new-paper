@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "ddatshr: all saved origins/targets match, first 256 forecasts reproduce, changing other contexts does not change first forecast",
+    "diadata: all saved origins/targets match, first 256 forecasts reproduce, changing other contexts does not change first forecast"
+  ],
+  "predictions_sha256": {
+    "ddatshr": "77cfec2972c5fbacf81e426c2bbf0df90a13d08c963a4d99cc66354a4c37e638",
+    "diadata": "efeeb9c9c24d51883f0ae42777836d2fa1049fd76634266a87e8ac4feea326ff"
+  },
+  "cached_model_files": {
+    "config.json": "ef1143bfdc9c0376d9a056eefca46cb4b1ec3d0ffacd541ff56feb40fb708031",
+    "model.safetensors": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+  },
+  "model_dtype": "torch.float32",
+  "freeze_sha256": "d5ac24bea2a6437ba8af3eb1119eae5d9f6db7cfc74b28d6e19e379c42c1ca6f"
+}

@@ -1,0 +1,26 @@
+{
+  "visual_review": "All six source figures inspected; PDF pages 6 and 7 inspected as raster images; all 12 pages inspected through extracted layout text. Fixed overflowing diagram labels, plot label width, table row splitting, header repetition, figure-caption grouping and page numbering.",
+  "gpu_cleanup": "Local revision inference server terminated after all 405 responses were archived. All four GPUs reported 0 MiB allocated.",
+  "documents": {
+    "manuscript_REVISED_EVIDENCE.docx": "aae341566d13782d448fb3040fe98fc695b49e2091777140c65bde8728c7feb2",
+    "manuscript_REVISED_EVIDENCE.pdf": "e110aeba3b34c466d383893709c435887abe46d0cb9b9ef5272fbd6cdd5525df",
+    "manuscript_MDPI_FORMATTED.docx": "aae341566d13782d448fb3040fe98fc695b49e2091777140c65bde8728c7feb2"
+  },
+  "scientific_code": {
+    "src/revision/__init__.py": "51bad8ba127cc7a03c0a105fa86112dfc7c31f371c334dffc309ae573b5d7726",
+    "src/revision/data.py": "e7953c4f7e66707efa27c61d7b432fa4b8ef44e131582aa66609962c94da9e09",
+    "src/revision/experiment.py": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "src/revision/grounding.py": "78019ae3a78a70352325f85c0756d9d036d189c30bd08a564913d7cfd4fa93cc",
+    "src/revision/reporting.py": "b19d252b6924b3ea6092b44c22ca85815f19b729b8b84f3447b68352a0ec7140"
+  },
+  "notes": "No raw model response, prediction or frozen detector was changed for presentation. Deterministic-origin metadata correction is recorded separately.",
+  "supplement_extraction_check": "Fresh extraction passed all eight regression tests; fit audit manifests are relocated outside resumable cache paths. The final subsequent change only disables the obsolete standalone document-builder default.",
+  "restored_baseline_review": {
+    "baseline": "manuscript_SUBMISSION_draft_mdpi.pdf (16 pages)",
+    "current_pages": 14,
+    "title": "Exact user-requested title restored",
+    "structure": "Original nine sections and results Sections 7.1\u20137.5 retained",
+    "abstract_words": 175,
+    "verification": "Original figure bytes and forecast/generation evidence unchanged; manuscript figure numbering remapped through build_revision_docx.py. Text-layout review found no orphan section headings after pagination correction."
+  }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv*/
+project/data/raw/
+project/data/processed/
+project/results/revision_v2/fits/
+project/results/revision_v2/all_predictions.parquet
+project/results/revision_v2/sensitivity/*/fits/
+project/results/revision_v2/llm/cases/
+project/results/revision_v2/llm/responses/
+project/results/revision_v3/**/fits/
+project/results/revision_v3/**/*.parquet
+project/results/revision_v3/latency/responses/
+project/professor feedback/

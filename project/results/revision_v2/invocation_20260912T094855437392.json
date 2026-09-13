@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    "ddatshr"
+  ],
+  "models": [
+    "Ridge",
+    "RandomForest",
+    "XGBoost",
+    "TFTEncoder",
+    "BiLSTMTransformer",
+    "CNNGRU"
+  ],
+  "seeds": [
+    42,
+    1729,
+    2026
+  ],
+  "conditions": [
+    "cgm_hr",
+    "cgm"
+  ],
+  "gpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "workers_per_gpu": 4,
+  "history": 120,
+  "limit_subjects": 0,
+  "max_epochs": 80,
+  "output": "results/revision_v2"
+}

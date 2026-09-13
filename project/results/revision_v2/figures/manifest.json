@@ -1,0 +1,59 @@
+{
+  "fig1_protocol.pdf": {
+    "bytes": 13958
+  },
+  "fig1_protocol.svg": {
+    "bytes": 8080
+  },
+  "fig1_protocol.png": {
+    "bytes": 379161
+  },
+  "fig2_forecast_mae.pdf": {
+    "bytes": 21142
+  },
+  "fig2_forecast_mae.svg": {
+    "bytes": 32316
+  },
+  "fig2_forecast_mae.png": {
+    "bytes": 570060
+  },
+  "fig3_paired_effects.pdf": {
+    "bytes": 14314
+  },
+  "fig3_paired_effects.svg": {
+    "bytes": 27057
+  },
+  "fig3_paired_effects.png": {
+    "bytes": 213255
+  },
+  "fig4_heterogeneity.pdf": {
+    "bytes": 15143
+  },
+  "fig4_heterogeneity.svg": {
+    "bytes": 28632
+  },
+  "fig4_heterogeneity.png": {
+    "bytes": 339523
+  },
+  "fig5_clarke.pdf": {
+    "bytes": 478686
+  },
+  "fig5_clarke.svg": {
+    "bytes": 731994
+  },
+  "fig5_clarke.png": {
+    "bytes": 928146
+  },
+  "fig6_grounding.pdf": {
+    "bytes": 13347
+  },
+  "fig6_grounding.svg": {
+    "bytes": 12669
+  },
+  "fig6_grounding.png": {
+    "bytes": 256031
+  },
+  "manifest.json": {
+    "bytes": 933
+  }
+}

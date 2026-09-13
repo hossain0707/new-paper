@@ -1,0 +1,160 @@
+{
+  "created_utc": "2026-09-13T07:34:28.016893+00:00",
+  "members": [
+    "RandomForest",
+    "XGBoost",
+    "TFTEncoder",
+    "BiLSTMTransformer",
+    "CNNGRU"
+  ],
+  "weights": {
+    "42": {
+      "30": [
+        0.60819930638156,
+        0.0,
+        0.1416655303016256,
+        5.204170427930421e-18,
+        0.2501351633168146
+      ],
+      "60": [
+        0.8470407718058919,
+        1.0842021724855044e-18,
+        0.15295922819410818,
+        1.734723475976807e-18,
+        8.023096076392733e-18
+      ],
+      "90": [
+        0.8648147440903542,
+        1.214306433183765e-17,
+        0.1351852559096458,
+        4.445228907190568e-18,
+        8.239936510889834e-18
+      ]
+    },
+    "1729": {
+      "30": [
+        0.5487940302037678,
+        2.929514270055833e-16,
+        0.30261137468994936,
+        0.009208867646789087,
+        0.13938572745949349
+      ],
+      "60": [
+        0.7536950206514879,
+        1.8648277366750676e-17,
+        0.24630497934851228,
+        0.0,
+        0.0
+      ],
+      "90": [
+        0.8493203487118758,
+        4.1253892663073444e-17,
+        0.15067965128812424,
+        0.0,
+        2.190088388420719e-17
+      ]
+    },
+    "2026": {
+      "30": [
+        0.5431201078225433,
+        1.247781175259255e-16,
+        0.371679061858253,
+        0.08520083031920364,
+        0.0
+      ],
+      "60": [
+        0.7893308596228061,
+        6.938893903907228e-17,
+        0.21066914037719373,
+        1.5612511283791264e-17,
+        0.0
+      ],
+      "90": [
+        0.8773139300085908,
+        7.806255641895632e-17,
+        0.1226860699914091,
+        0.0,
+        1.734723475976807e-18
+      ]
+    }
+  },
+  "files": {
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_42/development/checkpoint.joblib": "f61c80d25d96ad8e06f5146597e010a45697bc163919c27d360de28326a8ccd4",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_42/development/search.csv": "24b873914a97686dfbb87381eb9ae10e2b57a5aca21db297463a085621996c25",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_42/development/validation.parquet": "10bcbfab7de1eca021fb5308ab5319982101e77b70aa9bde4f78af81186ddd22",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_42/development/complete.json": "71979b5c35d0603e47ba683a3cb56f36e525a31b9a3cff88a96af8f6c3689372",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_42/development/checkpoint.joblib": "2394f4a3c4bdf91110aef949990e89cb59dce6094889cb1376858e574f555c1d",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_42/development/search.csv": "5d7a898313d2054a55f92fab375e1a25153fb2b1465cbb3c4b4a36ca33184eee",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_42/development/validation.parquet": "c091d758acb6597c2218e99993ae1742b4a9b0e4c406a1e905797862ecc339ca",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_42/development/complete.json": "cc548c00b458dba4e3ec10aa42115dd79a172171598037989d5ef68ab23b8344",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_42/development/checkpoint.joblib": "b1f67a2b90192f3fafff691c31495082f592b06f0a15e338028c67331fe18cbf",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_42/development/search.csv": "60d47a20e58cfeb1a6c87757e95389063c2bbd0f0ebc375e21325d42fe8bc2de",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_42/development/validation.parquet": "1704cb08130526809b99e739900155ebf705b4a6f0dd3624dec0ef76c31bf7b5",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_42/development/complete.json": "5e1dd84fd051df980ef5b4047aa228fc654118305737845da7920ea31d28595f",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_42/development/training_history.csv": "2e3339c137d63af5fe143e0056538b1d15d6181dfeb837bdc4a9375df29779dd",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_42/development/checkpoint.pt": "504cb4b9b7e94ffaabfc2ad4fbdce67e2987507977c895487ac3190164d3569f",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_42/development/validation.parquet": "efd06ef94ce11abece9e919e1f936d26b40cd6eb514d04ffa2f88da753f58529",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_42/development/complete.json": "83aec8b6a4d592b40b6c2bd0688a0294f3b01b70d3d62504de5563dddd0960ba",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_42/development/training_history.csv": "de61b08c952ea6b7d02e904519e21db3927e1d17ed38af773d4d3e12bec87379",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_42/development/checkpoint.pt": "648e274187e31ccf33fa8256760df3e6a5c3cbe5ea791e8c75d2b0f0b17411a6",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_42/development/validation.parquet": "d1403ff277247b02e9ad836f2f16f60983dd18c61301049e3c1a6649fcf90208",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_42/development/complete.json": "347fe404ecfa8584f5bb1c93afe861b146d3fe996caff9e9135d9d945bb98900",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_42/development/training_history.csv": "e14d47e4d34eee6a5bbb60028265f49a6e7769ae2f7f2672ff083ede524e2f5b",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_42/development/checkpoint.pt": "f710fa60b46f6bd16b40b4454752f1d88815a1809cb8ef8a76b7204770d2fb8b",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_42/development/validation.parquet": "fd3a3c60403e9fa77e263d2586365ce0af3685767d949089a4a5de0399b3bedf",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_42/development/complete.json": "6007c1e0a73cd3209a6864190426d2bd88e2058aa402b1ac0db408b2947acf67",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_1729/development/checkpoint.joblib": "f61c80d25d96ad8e06f5146597e010a45697bc163919c27d360de28326a8ccd4",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_1729/development/search.csv": "24b873914a97686dfbb87381eb9ae10e2b57a5aca21db297463a085621996c25",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_1729/development/validation.parquet": "10bcbfab7de1eca021fb5308ab5319982101e77b70aa9bde4f78af81186ddd22",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_1729/development/complete.json": "3cfe2423b802cf91d2cb420b4cca21a87683791a8bf28b094e49fb5b75caa9ab",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_1729/development/checkpoint.joblib": "92fd8d06fd91c6279e29ef24216d04109dfc7a119685fd9034afce931a342cc8",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_1729/development/search.csv": "2aa6c0c2dd3c502b3fc532cf2edabe5f31d66828ea4a8ab887a9fcb4c624e29b",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_1729/development/validation.parquet": "29e5a9b68b607f092a4a39e482bc1d74087a7874147926544577ae01fcd29a37",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_1729/development/complete.json": "a551bf176a47671e50c1e96a1ed7e91ec77901d7decd1a6aadb11f048e4b271f",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_1729/development/checkpoint.joblib": "4a2c4a7a43e986224286f75eea9144a2bb789c3a9e9e2637bbd4253c9783ef9c",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_1729/development/search.csv": "06cb49d70905fec4c7ccf01d4e3f37d9789eda185ba66d433d0efb20f4a4c5c5",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_1729/development/validation.parquet": "259db242d3acd10ced5284dd541154d5f9c7d13b2f82818b1532d2ae95f7dd01",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_1729/development/complete.json": "234c443337ab4718e15e4d7e822700d0202627ea8832b1e53985cde0ea8a9064",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_1729/development/training_history.csv": "c51d04b6240d626a90958a113f6cacea60d2e37f7298eb52320ce9f5fb2ef25e",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_1729/development/checkpoint.pt": "bce0041c28facede3828c34b7bbbe7912ef3b9a01fc6dbc464fd9c1975babed3",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_1729/development/validation.parquet": "856fb28ce98e0c7aeeefd1d6f8beac1621cc805d0cef415b63433aeb156b50f7",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_1729/development/complete.json": "5d5ffe14d49e45d77db36dfc7000e6d1f6ab33f9e04c9edc87708bb088682166",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_1729/development/training_history.csv": "67b36ab12b7e255e3e31713b489a15c673872bc6d860e223c1f7a6ba6dd170be",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_1729/development/checkpoint.pt": "9fcc03f24242acdd0a420b33c8d44c219cd4b108144e58b5e60a5574a5d5b752",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_1729/development/validation.parquet": "5ae629fa13b3e5c125a294468f315e4f852730aa2c29dd262114afc53168c930",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_1729/development/complete.json": "6a8db215679fd937ab4df425810addca6fd3ba843b519d312922935b0f147528",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_1729/development/training_history.csv": "67dc45e770670fa6d72dce1525fd748b272ea6487786ad3b7e5ede3957a49ef2",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_1729/development/checkpoint.pt": "8bbd2a6d3810fe8e6e33ac54effd4d7371d3123d3de6dc1bfb7ce64638c1b5aa",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_1729/development/validation.parquet": "e791ecf93e3ddb44a7e820e3af8abde0ec30ec2ebc24140a27fb0e98246fa004",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_1729/development/complete.json": "8195c1186c8ce50d5f34b289e511a579b5e60234506d44c87c1b0463479a02e8",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_2026/development/checkpoint.joblib": "f61c80d25d96ad8e06f5146597e010a45697bc163919c27d360de28326a8ccd4",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_2026/development/search.csv": "24b873914a97686dfbb87381eb9ae10e2b57a5aca21db297463a085621996c25",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_2026/development/validation.parquet": "10bcbfab7de1eca021fb5308ab5319982101e77b70aa9bde4f78af81186ddd22",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/Ridge/seed_2026/development/complete.json": "4d5df794321aadd367a1473c0dc6a704306b5d9cacc42cf19cc03198eeccc5be",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_2026/development/checkpoint.joblib": "115192eb467355dbc5e7500f512870dfa43dac3c0f3911a3f903e5ae72eb9d7e",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_2026/development/search.csv": "06129f5a5e245584c49a2e6e1fae461fd18c91d82b53b04e9a0d6f3afb625971",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_2026/development/validation.parquet": "ecf1d81838ea1dabe2663b5c631fdcd91aa28c2bf7058bb4ded317b6bd9327db",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/RandomForest/seed_2026/development/complete.json": "915274e0d7373529326f05347acb6f93b7ffb537a9534c4b87449c562db2ec2f",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_2026/development/checkpoint.joblib": "eb677e3c30036dc231f3c469d57b094ccb2651d1b935956190a1d38a0bf4a3b7",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_2026/development/search.csv": "09bf5e077d73698223e2b239c8677d6fcf4af5904e7002eedf09ae1120c2e327",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_2026/development/validation.parquet": "1296a6937fd38984dd5b663cf8e9dc4ac7e0a474688276a29cb68b5e7edb88bf",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/XGBoost/seed_2026/development/complete.json": "69a89dc4ce71700b672eef12271cd3eb9f65ab369a1e7d75ba6867c18bddf542",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_2026/development/training_history.csv": "eca8eabff40139d17955c76cc634586241f5be969e01ea9e165e40e708acdd0f",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_2026/development/checkpoint.pt": "e5383dc0ae0d2acad5880c23f74a74c435e7e3574136d5ad327cd33551040e60",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_2026/development/validation.parquet": "2fe82b9abca7c681fc34ca2fc41016c21b2e72fc5ebf2471886d62bbab5355bd",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/TFTEncoder/seed_2026/development/complete.json": "6a36212905c722a78eff50e7277dc0d7d97d1f07f1d8d2196f6d928ff805e95c",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_2026/development/training_history.csv": "23decaba6239a7a253ce0870400f41eb981e685699f3f6ef7eb427ea989dfbd8",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_2026/development/checkpoint.pt": "a723da8c1e6f6bdd33271e2cb0d672fca2a3fb69cfcbb6263ad3373f40f9a21c",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_2026/development/validation.parquet": "f11bcbae3a28fbc343564d2bf96f48671d8c2a597892db94d77002cd7c6e63d5",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/BiLSTMTransformer/seed_2026/development/complete.json": "ddeb499038cdd31fc9ebc030615a48198dc71511a62c09e7193b94e7cc0f9772",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_2026/development/training_history.csv": "12d1c1e55252230d2b65ab86f57d66fa9b0fb34df7634eb07c57819e3ace8b2b",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_2026/development/checkpoint.pt": "55c1d677887a6a98cf475ed19381f118de5fec2845a7f51b4a023ae000a61136",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_2026/development/validation.parquet": "233d0544e5239f06e7adf301394b5396e76a549b9ad1095bc45d396b69c2cb1c",
+    "results/revision_v3/external/fits/ddatshr/glucose_only/CNNGRU/seed_2026/development/complete.json": "04a1bc1d20a9a4b77254f1f5d4f41fc45d4bf2f0a833312c81db287be574224a",
+    "protocol_v3.md": "72b550c1a0020696fae6dabf337010ab216a35006de34450ac6277a1689bc25e",
+    "src/revision/strengthening.py": "9f007cecf3a9ab22c83dd08ea85f25135a36ea550e559b205c698add12cc5e38",
+    "src/revision/experiment.py": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "scripts/freeze_revision_external.py": "d9afd0e8da48f35fda3f3dff939426925a9559db475c2398b7a41fc27f2d41e0"
+  },
+  "external_scoring_started": false
+}

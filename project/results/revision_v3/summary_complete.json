@@ -1,0 +1,13 @@
+{
+  "primary_results_unchanged": true,
+  "additional_p_values": false,
+  "bootstrap": "10000 participant resamples; descriptive; shared training folds not independent",
+  "table_hashes": {
+    "validation_fit_manifest.csv": "61de617be4be4d2e190a7d432cccc80bc2476365cd9052dc88fafe02d9a76b50",
+    "per_patient_metrics.csv": "bdd48d3f5201b2b91596b8b30ac2da0851a1ad32fdbbade52246c48e2621a275",
+    "glycemic_range_metrics.csv": "8bd8bc5c2aae6f886e0a4b8a479ee50e5b5fa169f904846a1e56b9e8ff830fb5",
+    "pooled_metrics.csv": "cb64488e30aa7aaacaafaa0ca2fff2bb16ea322f9f9662c79b9cf517214f4647",
+    "subject_macro_metrics.csv": "e13a2448264a818a2dbc8bf23faaaf2f1fc1932f94791aae1d04c82ff4b9c64f",
+    "descriptive_comparisons.csv": "87d13426e4387b0b78b12110a87493bfb9076407dc98e5a30afb216ce3df30c9"
+  }
+}

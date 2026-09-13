@@ -1,0 +1,1 @@
+Corrected retrospective research supplement. Start with README.md and REPRODUCIBILITY.md. Author declarations and journal approval remain pending. No source participant records are re-hosted. Model predictions and weights can be regenerated from the pinned sources.

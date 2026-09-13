@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "primary_fits": 1656,
+  "checks": [
+    "ddatshr: all patient/model/seed/condition splits and targets matched; representative checkpoints reproduced predictions",
+    "diadata: all patient/model/seed/condition splits and targets matched; representative checkpoints reproduced predictions",
+    "All per-patient MAE/RMSE cells independently recalculated from saved predictions",
+    "Patient-separated generation cases complete; stored gate decisions reproduce under frozen detector",
+    "Exact user-requested title, original nine-section structure and results sequence preserved; abstract within 200 words",
+    "Generated manuscript resolved all numerical slots and contains eight tables and seven figures"
+  ],
+  "limitations": "Integrity validation is not human clinical review, editorial approval or a proof of scientific validity."
+}

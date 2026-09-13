@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "array_sha256": "cbe727f2edf45ab0145774e03f235f34d2fa7c13c82d49c340c98a3d0458c7d9",
+    "training_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "max_epochs": 80
+  },
+  "dataset": "ddatshr",
+  "test_subject": "914",
+  "validation_subject": "981",
+  "train_subjects": [
+    "926",
+    "987",
+    "929",
+    "918",
+    "943",
+    "907",
+    "995",
+    "959",
+    "962",
+    "974",
+    "941",
+    "976",
+    "903",
+    "944",
+    "990"
+  ],
+  "model": "CNNGRU",
+  "seed": 2026,
+  "condition": "cgm",
+  "config": {
+    "lr": 0.0003,
+    "epoch": 24,
+    "inner_MAE": 31.57059097290039
+  },
+  "train_n": 64572,
+  "validation_n": 4653,
+  "test_n": 3189,
+  "duration_s": 37.62341785430908
+}

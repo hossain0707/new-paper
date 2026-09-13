@@ -1,0 +1,38 @@
+{
+  "identity": {
+    "array_sha256": "d0b94f133014cc322bacda33f5dbe87be420d51d43cb59828e0d96f740ae001f",
+    "training_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "max_epochs": 80
+  },
+  "dataset": "ddatshr",
+  "test_subject": "914",
+  "validation_subject": "981",
+  "train_subjects": [
+    "926",
+    "987",
+    "929",
+    "918",
+    "943",
+    "907",
+    "995",
+    "959",
+    "962",
+    "974",
+    "941",
+    "976",
+    "903",
+    "944",
+    "990"
+  ],
+  "model": "XGBoost",
+  "seed": 42,
+  "condition": "cgm_hr",
+  "config": {
+    "max_depth": 6,
+    "inner_MAE": 32.488746643066406
+  },
+  "train_n": 56261,
+  "validation_n": 3964,
+  "test_n": 2419,
+  "duration_s": 32.740153789520264
+}

@@ -1,0 +1,17 @@
+{
+  "system_prompt": "Return one JSON object only, without Markdown, commentary, new fields, advice, or invented intervals.\nCopy every value in input.values exactly, preserving units in the field names, every forecast horizon,\nand the three SHAP entries in their supplied order. Add exactly two fields:\nstudy_tier: integer 1 for 0<=score<40, 2 for 40<=score<60, 3 for 60<=score<80,\n4 for 80<=score<95, 5 for 95<=score<=100, using study_score.\ndirection: \"rising\" if h90 minus observations.glucose_mgdl >5, \"falling\" if <-5,\notherwise \"stable\". These rules are an artificial consistency task, not validated clinical triage.\nThe observations are the last available input; the forecasts are RF predictions, not measurements.\nshap_h30 contributions explain the RF change prediction, not physiology. Do not interpret SHAP as causation.\nThe only output keys are observations, forecasts_mgdl, rate_mgdl_per_min, study_score,\nshap_h30, study_tier, direction.",
+  "example_ids": [
+    "115db9d75d6a8000",
+    "d92ef00d7fa6f0d2",
+    "159b450c59087c0b"
+  ],
+  "detector_sha256": "78019ae3a78a70352325f85c0756d9d036d189c30bd08a564913d7cfd4fa93cc",
+  "selection_sha256": "bf916d2061e2a3a114da665d409dfd8e569b1a25e95dcd3a095a4d940fd16f3e",
+  "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+  "model_revision": "7872f01b1d1fe23eabc4c98b48bffcef5a386062",
+  "temperature": 0,
+  "seed": 2026,
+  "max_tokens": 2048,
+  "thinking": false,
+  "reasoning_effort": "none"
+}

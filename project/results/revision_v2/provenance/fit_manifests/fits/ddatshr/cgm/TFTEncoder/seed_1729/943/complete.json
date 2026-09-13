@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "array_sha256": "cbe727f2edf45ab0145774e03f235f34d2fa7c13c82d49c340c98a3d0458c7d9",
+    "training_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "max_epochs": 80
+  },
+  "dataset": "ddatshr",
+  "test_subject": "943",
+  "validation_subject": "990",
+  "train_subjects": [
+    "907",
+    "987",
+    "981",
+    "903",
+    "926",
+    "929",
+    "974",
+    "962",
+    "918",
+    "995",
+    "959",
+    "944",
+    "976",
+    "941",
+    "914"
+  ],
+  "model": "TFTEncoder",
+  "seed": 1729,
+  "condition": "cgm",
+  "config": {
+    "lr": 0.001,
+    "epoch": 41,
+    "inner_MAE": 29.39994239807129
+  },
+  "train_n": 64345,
+  "validation_n": 4167,
+  "test_n": 3902,
+  "duration_s": 173.54552364349365
+}

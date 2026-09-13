@@ -1,0 +1,29 @@
+{
+  "identity": {
+    "array_sha256": "54a12bfb016944a999ef51be91f749ba48c51b95c895b3a3d6bea1f893a4a35d",
+    "training_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "max_epochs": 80
+  },
+  "dataset": "diadata",
+  "test_subject": "SOURCE_HUPA-UCM",
+  "validation_subject": "008_D1NAMO",
+  "train_subjects": [
+    "004_D1NAMO",
+    "002_D1NAMO",
+    "005_D1NAMO",
+    "006_D1NAMO",
+    "007_D1NAMO",
+    "001_D1NAMO"
+  ],
+  "model": "RandomForest",
+  "seed": 1729,
+  "condition": "cgm_hr",
+  "config": {
+    "max_depth": 8,
+    "inner_MAE": 40.3765509513824
+  },
+  "train_n": 583,
+  "validation_n": 98,
+  "test_n": 13819,
+  "duration_s": 19.847681999206543
+}

@@ -1,0 +1,93 @@
+{
+  "sha": "36379d9397d05bb00ac20cf91a5a2b648fecfafe",
+  "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/trees/36379d9397d05bb00ac20cf91a5a2b648fecfafe",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f17a7aafd25b02d4fdc70b1b1d57b9d885ece711",
+      "size": 58,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/f17a7aafd25b02d4fdc70b1b1d57b9d885ece711"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74014bfb0cb9fbefaf9c14994bde33706df2ccf6",
+      "size": 17007,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/74014bfb0cb9fbefaf9c14994bde33706df2ccf6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "553d51b34ef2b9c917863a82f0972934220f9740",
+      "size": 18064,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/553d51b34ef2b9c917863a82f0972934220f9740"
+    },
+    {
+      "path": "data-csv",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e5f83bfc8ac7b5ba0d63fef8868ebb7001f25c5",
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/trees/4e5f83bfc8ac7b5ba0d63fef8868ebb7001f25c5"
+    },
+    {
+      "path": "data-csv/Abbott.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "369d412f46e3cc20ddb63d3c7205611baec6b214",
+      "size": 3994344,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/369d412f46e3cc20ddb63d3c7205611baec6b214"
+    },
+    {
+      "path": "data-csv/Fitbit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18f8b43afe201d0a8c2578c6cf589a394b38cacd",
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/trees/18f8b43afe201d0a8c2578c6cf589a394b38cacd"
+    },
+    {
+      "path": "data-csv/Fitbit/Fitbit-heart-rate.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5174076388145fa0825a2780042aa78d524cd6",
+      "size": 134,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/1c5174076388145fa0825a2780042aa78d524cd6"
+    },
+    {
+      "path": "data-csv/Fitbit/Fitbit-sleep.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5016c059fe64f418286f8823ef9af009f96fc59e",
+      "size": 132,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/5016c059fe64f418286f8823ef9af009f96fc59e"
+    },
+    {
+      "path": "data-csv/Fitbit/Fitbit-steps.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c5d188d1dbdea1fe68f81ecebb349a000e03cc",
+      "size": 134,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/53c5d188d1dbdea1fe68f81ecebb349a000e03cc"
+    },
+    {
+      "path": "data-csv/Medtronic.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b89fd084c3fe15dc26c9aed9a55b4c4d858689",
+      "size": 30928378,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/85b89fd084c3fe15dc26c9aed9a55b4c4d858689"
+    },
+    {
+      "path": "data-csv/population.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a75a06742c4ee55ca66e454d8e241b08c19474",
+      "size": 2645,
+      "url": "https://api.github.com/repos/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate/git/blobs/c5a75a06742c4ee55ca66e454d8e241b08c19474"
+    }
+  ],
+  "truncated": false
+}
