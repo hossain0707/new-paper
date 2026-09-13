@@ -45,4 +45,4 @@ Responsible authors must still approve the full research, finalize declarations,
 
 Raw participant records, exact generation inputs/outputs, model weights, credentials and original private professor correspondence are not redistributed. The prepared response is the authors’ draft response, not the professor’s original correspondence. Source datasets and models retain their own licenses and attribution requirements; this release does not assign a new blanket license to third-party material.
 
-Prepared for publication at `hossain0707/new-paper`. The original research snapshot and supplement retain their historical provenance and original repository references. Public creation/push must be verified before citing this target as an available repository.
+Public release repository: https://github.com/hossain0707/new-paper. The original research snapshot and supplement retain their historical provenance and original repository references. Refer to PUBLIC_RELEASE_CHECK.json for the local packaging audit.
