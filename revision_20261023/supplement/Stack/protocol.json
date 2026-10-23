@@ -1,0 +1,31 @@
+{
+  "post_review": true,
+  "members": [
+    "RandomForest",
+    "XGBoost",
+    "TFTEncoder",
+    "BiLSTMTransformer",
+    "CNNGRU"
+  ],
+  "seeds": [
+    42,
+    1729,
+    2026
+  ],
+  "conditions": [
+    "cgm_hr"
+  ],
+  "inner_validation_people": 3,
+  "training_and_validation_patient_balanced": true,
+  "weight_objective": "equal-participant squared error per horizon on validation only",
+  "outer_origins": "unchanged history_120 metadata; verify hashes and sample IDs before interpretation",
+  "tree_workers": 12,
+  "gpu_workers": 2,
+  "pilot": false,
+  "source_sha256": {
+    "scripts/run_third_review_stack.py": "46d2d55c6c7cf80d57b29a41161e20cea171a46af51370f1d1c0a00ee8000571",
+    "src/revision/strengthening.py": "9f007cecf3a9ab22c83dd08ea85f25135a36ea550e559b205c698add12cc5e38",
+    "src/revision/experiment.py": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "protocol_v4.md": "0c48f4d603f943b82759ec613b7a031a0ccd673f437e3f7fbc00c4118b3ed9f2"
+  }
+}

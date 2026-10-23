@@ -1,0 +1,5 @@
+{
+  "detector_sha256": "78019ae3a78a70352325f85c0756d9d036d189c30bd08a564913d7cfd4fa93cc",
+  "challenge_sha256": "1eba5489ea6db02c68f70403bfb8215168a9135b3315e6bc198fa3d35f780061",
+  "note": "Frozen before final LLM generation. Boundary cases deliberately violate source truth, outside the typed contract."
+}

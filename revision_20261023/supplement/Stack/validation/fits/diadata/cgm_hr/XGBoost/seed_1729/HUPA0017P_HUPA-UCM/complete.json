@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "data_sha256": "54a12bfb016944a999ef51be91f749ba48c51b95c895b3a3d6bea1f893a4a35d",
+    "meta_sha256": "17c39c60ede9bfa00fc5240829a05a9cb575a1fd19dcae76e7601314e6408dbf",
+    "code_sha256": "9f007cecf3a9ab22c83dd08ea85f25135a36ea550e559b205c698add12cc5e38",
+    "base_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "deep_code_sha256": "aa33559b1416b98a39fda3c414f381d81f6da71f398595db26b0f5fcab1add30",
+    "protocol_sha256": "72b550c1a0020696fae6dabf337010ab216a35006de34450ac6277a1689bc25e",
+    "train": [
+      "HUPA0022P_HUPA-UCM",
+      "HUPA0014P_HUPA-UCM",
+      "HUPA0026P_HUPA-UCM",
+      "HUPA0004P_HUPA-UCM",
+      "HUPA0011P_HUPA-UCM",
+      "005_D1NAMO",
+      "HUPA0025P_HUPA-UCM",
+      "HUPA0023P_HUPA-UCM",
+      "HUPA0001P_HUPA-UCM",
+      "007_D1NAMO",
+      "HUPA0016P_HUPA-UCM",
+      "004_D1NAMO",
+      "HUPA0024P_HUPA-UCM",
+      "HUPA0005P_HUPA-UCM",
+      "002_D1NAMO",
+      "001_D1NAMO",
+      "HUPA0027P_HUPA-UCM",
+      "HUPA0002P_HUPA-UCM",
+      "HUPA0021P_HUPA-UCM",
+      "008_D1NAMO",
+      "HUPA0015P_HUPA-UCM",
+      "HUPA0028P_HUPA-UCM",
+      "HUPA0007P_HUPA-UCM",
+      "HUPA0003P_HUPA-UCM",
+      "006_D1NAMO"
+    ],
+    "validation": [
+      "HUPA0006P_HUPA-UCM",
+      "HUPA0018P_HUPA-UCM",
+      "HUPA0020P_HUPA-UCM"
+    ],
+    "test": [
+      "HUPA0017P_HUPA-UCM"
+    ],
+    "shape": [
+      9,
+      4
+    ],
+    "seed": 1729,
+    "model": "XGBoost",
+    "condition": "cgm_hr"
+  },
+  "config": {
+    "max_depth": 3,
+    "validation_macro_MAE": 35.548641204833984
+  },
+  "duration_s": 2.7423107624053955,
+  "train_n": 13786,
+  "validation_n": 491,
+  "test_n": 223
+}

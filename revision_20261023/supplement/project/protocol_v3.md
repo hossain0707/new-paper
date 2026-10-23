@@ -1,0 +1,25 @@
+# Additional evidence protocol v3
+
+Written during the post-review strengthening phase, before v3 model fitting or evaluation. Not independently preregistered. All v2 outcomes were already known; they remain unchanged and are not relabelled as untouched test data. Clinical trials and prospective clinical benefit are outside this project.
+
+## A. New frozen-model external evaluation
+
+Target AZT1D version 1, DOI 10.17632/gk9m674wcx.1, a public CC BY 4.0 independent study with CGM but no matching HR stream. CITY was investigated as an adolescent alternative, but its named-researcher access form cannot be replaced by silently using the linked storage URL. Do not represent AZT1D as an adolescent-only cohort. The original DDATSHR adolescent analysis remains primary.
+
+Train only on v2 DDATSHR origins, removing HR and calendar channels: nine observed glucose boundaries at 15-minute intervals. Six base methods (Ridge, RF, XGBoost, TFT-inspired encoder, BiLSTM–Transformer, CNN–GRU), seeds 42/1729/2026; v2 hyperparameter grids and neural epoch budget. Select three validation participants by SHA-256 order of `v3_external|PtID`; all other DDATSHR participants fit the models. Train-only scalers and inverse-window training weights. Select configurations/epochs using mean participant MAE. Fit the five-member stack with nonnegative sum-one weights on patient-balanced validation squared error; no Ridge in stack. Freeze protocol/code/scalers/checkpoints/stack weights before scoring AZT1D. No external refitting, calibration, clipping, case selection by forecast error or deletion of failed predictions.
+
+AZT1D preparation: use documented CGM observations; right-closed/right-labelled 15-minute bins, last observed glucose; no interpolation or forward filling. Two-hour history (nine boundaries) and all observed h30/60/90 targets. At least 50 eligible origins per participant; chronological source visits must not be concatenated into fictitious continuity. Use provider-recorded times without invented timezone conversion; no calendar feature is used. Document sampling/clock limitations and source parsing decisions. Report every eligible participant, retention and all three horizons. Include persistence and last-two-reading linear trend on identical origins. Primary external outcome subject-macro MAE, secondary RMSE, complete Clarke zones and glycemic ranges. Descriptive 10,000-patient bootstrap intervals. No new confirmatory significance claims; v2's 18-test family remains intact.
+
+## B. Validation-participant robustness
+
+Refit RF for all v2 held-out participants, both CGM+HR and CGM-only conditions, three seeds, using three inner validation participants (first three in the original deterministic shuffled order). Configuration selection uses equal-participant MAE. The test origins/targets and hyperparameter grids remain v2-identical. This changes both validation coverage and available training participants, so it is sensitivity analysis, not an isolated causal test of validation count. Report every result and compare three-seed mean predictions against the v2 protocol, including HR effects. No replacement of primary results based on favorable outcomes.
+
+## C. Modern frozen forecasting baseline
+
+Evaluate amazon/chronos-2 (pin model revision and package version before inference) on precisely the existing v2 origins, using the nine glucose observations only, no task-specific fitting or future covariates. Predict six steps for DDATSHR and seven for DiaData, extracting horizons at offsets 2/4/6 and 3/5/7 respectively to account for DiaData's input delay. Use the median quantile. Keep contexts separate across patients/origins; do not enable cross-series learning from evaluation contexts. Treat unknown pretraining-data overlap and short context as limitations. Comparisons are descriptive and matched to v2 CGM-only baselines; they do not measure multimodal superiority.
+
+## D. Processing latency and detector robustness
+
+Use 30 hash-selected v2 test cases (at least one case per represented source where available), independent of prior acceptance or error. Measure one request at a time after warm-up, with component and total wall times: available history -> loaded RF point prediction -> genuine TreeSHAP -> local zero/few-shot request -> typed validation/rendering. Keep all failures/timeouts. Use the original frozen DeepSeek model/prompt/detector, three fixed existing few-shot examples, and deterministic comparator. Target is soft processing completion before the next 15-minute sensor update; report median/p95/max and deadline violations. Exclude model/server startup, device/network acquisition and clinical workflow. A successful replay is not live or hard real-time validation. No synthetic clinical trial, clinician score or treatment claim.
+
+All new outputs live under results/revision_v3. Report protocol deviations before dependent analyses; preserve the original paper's exact requested title, nine-section structure and scientific goal. Any remaining human-only declarations stay explicit.

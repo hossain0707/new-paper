@@ -1,0 +1,17 @@
+{"time_utc": "2026-10-22T11:59:26.328213+00:00", "stage": "wait_for_training", "status": "waiting", "detail": null}
+{"time_utc": "2026-10-22T11:59:26.328528+00:00", "stage": "wait_for_training", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T11:59:26.328759+00:00", "stage": "build_cases", "status": "running", "detail": null}
+{"time_utc": "2026-10-22T11:59:50.994966+00:00", "stage": "build_cases", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T11:59:51.090895+00:00", "stage": "qwen_development", "status": "running", "detail": null}
+{"time_utc": "2026-10-22T12:10:48.222190+00:00", "stage": "qwen_development", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T12:10:48.248037+00:00", "stage": "qwen_development_summary", "status": "running", "detail": null}
+{"time_utc": "2026-10-22T12:10:48.717103+00:00", "stage": "qwen_development_summary", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T12:10:48.717465+00:00", "stage": "qwen_test", "status": "running", "detail": null}
+{"time_utc": "2026-10-22T13:01:43.753311+00:00", "stage": "qwen_test", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T13:01:43.753781+00:00", "stage": "qwen_test_summary", "status": "running", "detail": null}
+{"time_utc": "2026-10-22T13:01:44.232198+00:00", "stage": "qwen_test_summary", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T13:01:44.318334+00:00", "stage": "stack_full", "status": "running", "detail": null}
+{"time_utc": "2026-10-22T15:22:34.005795+00:00", "stage": "stack_full", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T15:22:34.006162+00:00", "stage": "stack_summary", "status": "running", "detail": null}
+{"time_utc": "2026-10-22T15:22:35.600733+00:00", "stage": "stack_summary", "status": "completed", "detail": null}
+{"time_utc": "2026-10-22T15:22:35.600888+00:00", "stage": "computation_pipeline", "status": "finished", "detail": "Inspect stage events for failures; human review and manuscript integration are separate."}

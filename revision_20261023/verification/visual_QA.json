@@ -1,0 +1,80 @@
+{
+  "renderer": "bundled render_docx.py with isolated LibreOffice 26.2.6.3 and bundled Poppler",
+  "visual_inspection": "All page images opened and inspected; clean final pages other than 8/17 hash-identical to inspected v1; final 8/17 inspected. Response final other than pages 2/8 hash-identical to inspected v1; final 2/8 and pages 6-9 inspected.",
+  "documents": {
+    "manuscript_clean.docx": {
+      "sha256": "2dff6166d9121a7af022b197fdbc7bb8e3360d31a869b404772ac71af649bd51",
+      "pages": 22,
+      "every_page_visually_inspected": true,
+      "page_png_sha256": {
+        "page-1.png": "f5ab8d6f61375a0fa58d12a8a6f3ca84b4c642c895a1be221ed939508b1085db",
+        "page-10.png": "2986f68acebfe930ce7010be9671239ce49e13f24e27bdb65668a5d620782694",
+        "page-11.png": "3b660e385741ccace363b38d128ba5e0613f81923cedff1028b39736517884a3",
+        "page-12.png": "4dd39599479e490b60410c9b804756f520ea40bbe0d102c8004519feb3760c9c",
+        "page-13.png": "212abde8a797eb789e39c203afeade4425401212a56301b4f1fcf26dc38d86ad",
+        "page-14.png": "2382d08515d7134b039c27995064e478fc69ec49717eacd9b3b6999e19b4af08",
+        "page-15.png": "806de0257e03bd7b0629df991797370ad908c0c1daa74cef4d081379932ec96a",
+        "page-16.png": "f97c35933aacd0710cfc03e4158b2357c33ca5918283702d156af81397c14d50",
+        "page-17.png": "34b753d647bd2466a5597e3a67fcf7f67cc1b7f08fe5831ab491d1a8cb405172",
+        "page-18.png": "74f4ca3682267243524effbce13e351f9f0745963e194232523af342523ddf02",
+        "page-19.png": "c84454d5ca873f9172ce3c5339798a558d4686e5f8d81506d7666cbef7ef4d1e",
+        "page-2.png": "fc8d5f365648662423e63104883dd29d8946c48ae6f4819f0ed59b519570744e",
+        "page-20.png": "b797a01d9a1eaba92b2c8bbe02c94769fc4dc115a20d3136e1dd362156a8c45c",
+        "page-21.png": "de532812150c103c50a38ecead771edd96917664ba1c822f62767e1b56cde467",
+        "page-22.png": "41bc94f74d2ccfbbfc801db945bfe3f4e31bec786e79a5eb7a8007208b6ae755",
+        "page-3.png": "0e8034ed70fcb55c662c0bbf1ffdfea041ea68e74b67682c9b39a4423ca4c407",
+        "page-4.png": "785ac5c17ec21fbfaaf99f782e65460f050c8340cdf6e5a6d7d61c498268b7ba",
+        "page-5.png": "6bc5bf16e0ff9752a08070c67a9e981fc10e88002bc5d2ef2ea7dc706e75c461",
+        "page-6.png": "358ca9704a72cea6e582f3ce3b6018c4b0f8bd41d347eb5ee62cfdfdd2608864",
+        "page-7.png": "281cb464bd47e655304fd0383ccbe7731682a55630cc893ca2dae56015e07e87",
+        "page-8.png": "7afe766da6dedba476649e0813f65e73bb5889ad6ef8d7154783272ef04db053",
+        "page-9.png": "60e49a27c0cbf5781564f19ef264c822b28b94ef012506ed9930beba2ca3dfef"
+      }
+    },
+    "manuscript_selective_yellow.docx": {
+      "sha256": "04dfbdbc1a82e4f975d201b4df98fba699baddadd38c7f9aa8ae29158783f63b",
+      "pages": 22,
+      "every_page_visually_inspected": true,
+      "page_png_sha256": {
+        "page-1.png": "c2ff091535bf0a8a2d8bf60d9573093cfa3984c1636d4b71449ef5e3a963f211",
+        "page-10.png": "2986f68acebfe930ce7010be9671239ce49e13f24e27bdb65668a5d620782694",
+        "page-11.png": "a463db0445ea3991a5684874cf0538410712712d8ee94cebc00a39657fdf46d7",
+        "page-12.png": "4dd39599479e490b60410c9b804756f520ea40bbe0d102c8004519feb3760c9c",
+        "page-13.png": "212abde8a797eb789e39c203afeade4425401212a56301b4f1fcf26dc38d86ad",
+        "page-14.png": "5858e433516035d43f411506ee781024ecbdf4d742974f007f1e1e85dd532868",
+        "page-15.png": "6e7d4622fb7692b608e96b10f03fd46510d5be4cd874ad15e85dcea02c4ff273",
+        "page-16.png": "fbf5fc2e51a63c1d8ade7344f893d9947c8dceafb079bc7393898db31f788da5",
+        "page-17.png": "d248549b5ab7d48ba74a4d226fd93cb6557a92c5f4f49393e487ca0c9c6b6edb",
+        "page-18.png": "c68de6f8ffa107e3c10b3384b7943dbca1bedaa1eedae5365d6115d196a7842f",
+        "page-19.png": "b40c2ac33771aea5b7e875df5f922646a68a0878a43d2ee31c86bb101e0e8b63",
+        "page-2.png": "6b2a5c4fbbb4f35aebc6c97dde5ef76ebb6ab76ebef87bac2e59f99cf6bcfb17",
+        "page-20.png": "c33b1a660d6f06346c570c2d7993886ea1398890c03162e9f47c7100579dae7e",
+        "page-21.png": "99e28f44b5aec6a3d6dc360c05d4da2f149f77b0c21601c5188699d9adffea1f",
+        "page-22.png": "8e372da51fb0e70ab8567f2f33d2846da475b380a3a26e554d917f40bf6f15d6",
+        "page-3.png": "0e6488ddc106959bba1aba5c98afe2fc6f8eeaae9585e42149a2e9a6ce6d4712",
+        "page-4.png": "785ac5c17ec21fbfaaf99f782e65460f050c8340cdf6e5a6d7d61c498268b7ba",
+        "page-5.png": "5d58915150d91903d136a0ff9fcb2975b1ebf3239a29cea775063d7bfe6b954b",
+        "page-6.png": "358ca9704a72cea6e582f3ce3b6018c4b0f8bd41d347eb5ee62cfdfdd2608864",
+        "page-7.png": "466589e6ae4bcaacba2bf463daf7a4e2898278e9c3c2e8c8d6ca2e45b729e549",
+        "page-8.png": "aa12a63fd758793335420c3609a03ecfd207536100b25176c97b82c13c306654",
+        "page-9.png": "8e4d11698c66f32fed3f34aa222411d0500fc6fc282a764e9d9a7998490742f4"
+      }
+    },
+    "response_to_professor.docx": {
+      "sha256": "c6f22e4a7f1f3a5dfe23e79cf77b9fb2ba5f15db4ad60f9bab169de7f3b3c75a",
+      "pages": 9,
+      "every_page_visually_inspected": true,
+      "page_png_sha256": {
+        "page-1.png": "af76126d6561bf177405dcda31c941ac52c7c11b91281e6acc1b98b9b682b27d",
+        "page-2.png": "25429de21c7b96ab5122c2bb9637280e1e6d813cefa8fa653e61f1c67407e21a",
+        "page-3.png": "00ac69e589935b2a9d8c074ae6869bbd61931a2595f9a2550095762640ff8934",
+        "page-4.png": "c2558863221da0973a3b37db954e8abff03ff705b9a672babb45af1232158127",
+        "page-5.png": "c2354187458c1220e9ee0607070f1deeec3d737feba389bbbf8167e3ed9e4a63",
+        "page-6.png": "4951eee9862029b71e1d549db4e73c6ae2e77bcd8d6fa867d5a9f7197393356d",
+        "page-7.png": "5917b027922db8109c2137e4f583423b1b3a9c09acf128471feed2565a86d1c2",
+        "page-8.png": "2349bcbaab39ff8132854a37f135d763e3b926b83c663660ba252c8d9e4897d5",
+        "page-9.png": "0626a282c4259c2099645b93fa89e2692db33eef372e9e260409d924719075b0"
+      }
+    }
+  }
+}

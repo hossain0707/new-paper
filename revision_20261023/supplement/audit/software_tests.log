@@ -1,0 +1,18 @@
+test_direction_factor_only_changes_supplied_condition (test_comparison.ComparisonTests.test_direction_factor_only_changes_supplied_condition) ... ok
+test_examples_use_same_factor_as_test_case (test_comparison.ComparisonTests.test_examples_use_same_factor_as_test_case) ... ok
+test_schema_does_not_reveal_numeric_answers (test_comparison.ComparisonTests.test_schema_does_not_reveal_numeric_answers) ... ok
+test_clarke_danger_zones (test_revision.RevisionTests.test_clarke_danger_zones) ... ok
+test_delayed_input_does_not_shift_targets (test_revision.RevisionTests.test_delayed_input_does_not_shift_targets) ... ok
+test_grid_no_future_information (test_revision.RevisionTests.test_grid_no_future_information) ... ok
+test_horizon_alignment_and_missing_targets (test_revision.RevisionTests.test_horizon_alignment_and_missing_targets) ... ok
+test_simplex_can_reject_bad_member (test_revision.RevisionTests.test_simplex_can_reject_bad_member) ... ok
+test_subject_split_and_balancing (test_revision.RevisionTests.test_subject_split_and_balancing) ... ok
+test_tier_continuous_boundaries (test_revision.RevisionTests.test_tier_continuous_boundaries) ... ok
+test_typed_gate_has_no_vacuous_or_unit_swap_pass (test_revision.RevisionTests.test_typed_gate_has_no_vacuous_or_unit_swap_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.024s
+
+OK
+
+STDERR

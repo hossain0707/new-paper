@@ -1,0 +1,14 @@
+{
+  "config_architectures": [
+    "Qwen4ExpForConditionalGeneration"
+  ],
+  "model_type": "qwen4_exp",
+  "served_alias_is_not_weight_identity": true,
+  "metadata_sha256": {
+    "config.json": "b50dbc52a0c83b0cd2a44a372c1fb6b5e0e6827d22f2611c97d4d030f92f6b28",
+    "model.safetensors.index.json": "5fa166bbb1cf25adda455117563efa72a2072272001f459eedece131ffc913e1",
+    "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+  }
+}

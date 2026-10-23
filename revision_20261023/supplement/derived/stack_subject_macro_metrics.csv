@@ -1,0 +1,13 @@
+dataset,model,horizon,MAE,n_people
+ddatshr,RandomForest,30,18.18495363478203,17
+ddatshr,RandomForest,60,30.70968580358341,17
+ddatshr,RandomForest,90,39.04322553403196,17
+ddatshr,Stack,30,17.151482470026068,17
+ddatshr,Stack,60,29.700127914589814,17
+ddatshr,Stack,90,38.12500437279081,17
+diadata,RandomForest,30,24.048822924291127,29
+diadata,RandomForest,60,34.412353944084956,29
+diadata,RandomForest,90,41.82761226325978,29
+diadata,Stack,30,23.602059769758192,29
+diadata,Stack,60,34.00828800415746,29
+diadata,Stack,90,41.21042354614635,29

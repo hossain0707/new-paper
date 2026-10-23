@@ -1,0 +1,4 @@
+# Separate .venv-chronos with system-site NVIDIA PyTorch 25.03; do not alter LLM env.
+chronos-forecasting==2.3.2
+transformers==4.57.3
+tokenizers==0.22.2

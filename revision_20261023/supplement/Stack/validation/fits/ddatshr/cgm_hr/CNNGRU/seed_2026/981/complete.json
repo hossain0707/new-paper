@@ -1,0 +1,49 @@
+{
+  "identity": {
+    "data_sha256": "cbe727f2edf45ab0145774e03f235f34d2fa7c13c82d49c340c98a3d0458c7d9",
+    "meta_sha256": "8108e6021a3cc8e36b5e23cf2ab9a54d202e63a9f3c2691cd146ab148de0ed8c",
+    "code_sha256": "9f007cecf3a9ab22c83dd08ea85f25135a36ea550e559b205c698add12cc5e38",
+    "base_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "deep_code_sha256": "aa33559b1416b98a39fda3c414f381d81f6da71f398595db26b0f5fcab1add30",
+    "protocol_sha256": "72b550c1a0020696fae6dabf337010ab216a35006de34450ac6277a1689bc25e",
+    "train": [
+      "995",
+      "990",
+      "941",
+      "943",
+      "976",
+      "974",
+      "962",
+      "929",
+      "959",
+      "987",
+      "907",
+      "903",
+      "914"
+    ],
+    "validation": [
+      "918",
+      "926",
+      "944"
+    ],
+    "test": [
+      "981"
+    ],
+    "shape": [
+      9,
+      4
+    ],
+    "seed": 2026,
+    "model": "CNNGRU",
+    "condition": "cgm_hr"
+  },
+  "config": {
+    "lr": 0.0003,
+    "epoch": 36,
+    "inner_MAE": 31.73592185974121
+  },
+  "duration_s": 43.73227286338806,
+  "train_n": 51905,
+  "validation_n": 15856,
+  "test_n": 4653
+}
