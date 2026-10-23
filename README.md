@@ -1,3 +1,14 @@
+<!-- CURRENT_REVISION_20261023 -->
+# Current review revision
+
+The Qwen-primary review deliverables and reproducible supplement are in [revision_20261023](revision_20261023/DELIVERY_STATUS.md). Use its clean manuscript, selective-yellow copy and point-by-point response as the current revision. [Supplementary File S1](revision_20261023/supplement/README.md) includes code, source terms, frozen protocols, derived evidence and audit manifests.
+
+All 888 Qwen test requests, 690 Stack fit manifests, 138 validation-only weight sets and 10 representative checkpoints were audited. The DOCX files were rendered and every page inspected. Funding is confirmed as no external funding. Human usefulness, historical structured DeepSeek evidence, raw historical neural HR predictions and the author decisions listed in DELIVERY_STATUS remain unresolved. No author approval or submission readiness is claimed.
+
+The files and claims below belong to the earlier publication snapshot and are preserved as historical work; they are superseded for this review. No new reproduction of historical DeepSeek is asserted.
+
+---
+
 # New Paper — GlucoSense research revision
 
 **Multimodal Deep Learning for Real-Time Glucose Prediction with Zero/Few-Shot On-Premises LLM Explainability: External Validation on an Independent Adolescent Cohort**

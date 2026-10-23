@@ -1,0 +1,9 @@
+{
+  "fits": 46,
+  "per_person_horizon_checks": 138,
+  "tolerance_MAE": 1e-07,
+  "arrays": {
+    "ddatshr": "cbe727f2edf45ab0145774e03f235f34d2fa7c13c82d49c340c98a3d0458c7d9",
+    "diadata": "54a12bfb016944a999ef51be91f749ba48c51b95c895b3a3d6bea1f893a4a35d"
+  }
+}

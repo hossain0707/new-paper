@@ -1,0 +1,70 @@
+[
+  {
+    "technical_probe_only": true,
+    "constrained": false,
+    "request": {
+      "model": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Output exactly the word WRONG, without JSON."
+        }
+      ],
+      "max_tokens": 64,
+      "temperature": 0,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "thinking": false,
+        "enable_thinking": false
+      }
+    },
+    "status": 200,
+    "raw_body": "{\"id\":\"chatcmpl-b22efe91b04b8f3e\",\"object\":\"chat.completion\",\"created\":1792668867,\"model\":\"nvidia/Qwen3.8-Flash-Next-FP4-Local\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"WRONG\",\"refusal\":null,\"annotations\":null,\"audio\":null,\"function_call\":null,\"reasoning\":null},\"logprobs\":null,\"finish_reason\":\"stop\",\"stop_reason\":null,\"token_ids\":null,\"routed_experts\":null}],\"service_tier\":null,\"system_fingerprint\":\"vllm-0.1.dev21830+g8244d1c44.d20261015-51274f33\",\"usage\":{\"prompt_tokens\":21,\"total_tokens\":24,\"completion_tokens\":3,\"prompt_tokens_details\":{\"cached_tokens\":0,\"created_cache_tokens\":0,\"multimodal_tokens\":null},\"completion_tokens_details\":{\"reasoning_tokens\":0}},\"prompt_logprobs\":null,\"prompt_token_ids\":null,\"prompt_text\":null,\"kv_transfer_params\":null,\"ec_transfer_params\":null,\"metrics\":null}",
+    "elapsed_s": 0.28491230699728476
+  },
+  {
+    "technical_probe_only": true,
+    "constrained": true,
+    "request": {
+      "model": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Output exactly the word WRONG, without JSON."
+        }
+      ],
+      "max_tokens": 64,
+      "temperature": 0,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "thinking": false,
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "technical_probe",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "probe": {
+                "type": "integer",
+                "enum": [
+                  7
+                ]
+              }
+            },
+            "required": [
+              "probe"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "status": 200,
+    "raw_body": "{\"id\":\"chatcmpl-93512579fcf1adcf\",\"object\":\"chat.completion\",\"created\":1792668867,\"model\":\"nvidia/Qwen3.8-Flash-Next-FP4-Local\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"probe\\\": 7\\n}\",\"refusal\":null,\"annotations\":null,\"audio\":null,\"function_call\":null,\"reasoning\":null},\"logprobs\":null,\"finish_reason\":\"stop\",\"stop_reason\":null,\"token_ids\":null,\"routed_experts\":null}],\"service_tier\":null,\"system_fingerprint\":\"vllm-0.1.dev21830+g8244d1c44.d20261015-51274f33\",\"usage\":{\"prompt_tokens\":21,\"total_tokens\":35,\"completion_tokens\":14,\"prompt_tokens_details\":{\"cached_tokens\":21,\"created_cache_tokens\":0,\"multimodal_tokens\":null},\"completion_tokens_details\":{\"reasoning_tokens\":0}},\"prompt_logprobs\":null,\"prompt_token_ids\":null,\"prompt_text\":null,\"kv_transfer_params\":null,\"ec_transfer_params\":null,\"metrics\":null}",
+    "elapsed_s": 1.4606660370045574
+  }
+]

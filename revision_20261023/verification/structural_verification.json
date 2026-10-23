@@ -1,0 +1,13 @@
+{
+  "clean_yellow_text_equal": true,
+  "all_10_tables_match_current_HTML": true,
+  "figures": 7,
+  "references": 34,
+  "historical_DeepSeek_numbers_removed_from_current_main_claims": true,
+  "funding_user_confirmed": true,
+  "clean_highlight_runs": 0,
+  "yellow_highlight_runs": 1023,
+  "all_rendered_response_locators_rechecked_against_final_clean_PDF": true,
+  "p15_bookmark_actual_page": 2,
+  "p77_bookmark_actual_page": 7
+}

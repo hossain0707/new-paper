@@ -1,0 +1,7 @@
+dataset,horizon,n_patients,evaluated_origins,covered_origins_recovered,coverage_macro,coverage_pooled_recovered,verification
+ddatshr,30,17,72414,68578,0.9421375158011766,0.9470268180186152,integer-consistent saved fractions; raw predictions absent
+ddatshr,60,17,72414,68637,0.9422333466364509,0.9478415775954926,integer-consistent saved fractions; raw predictions absent
+ddatshr,90,17,72414,68567,0.9416170916258021,0.9468749136907227,integer-consistent saved fractions; raw predictions absent
+diadata,30,29,14500,13932,0.9090134777794145,0.9608275862068966,integer-consistent saved fractions; raw predictions absent
+diadata,60,29,14500,13933,0.9082441801211402,0.9608965517241379,integer-consistent saved fractions; raw predictions absent
+diadata,90,29,14500,13896,0.9054313301990911,0.9583448275862069,integer-consistent saved fractions; raw predictions absent

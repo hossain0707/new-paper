@@ -1,0 +1,61 @@
+{
+  "public_repository_head": "acc56664c8f34bb06e57b11012d8fde2d308015d",
+  "earlier_repository_head": "d8dd4fc0dac571387021ca0350d6dce483314527",
+  "repositories_searched": [
+    "hossain0707/new-paper full fetched history",
+    "hossain0707/glucosense-ai-extended full fetched history"
+  ],
+  "local_scope": [
+    "project source/history/completed result archives",
+    "earlier/public repository Git object names and LLM tables",
+    "private completed-computation evidence archive"
+  ],
+  "remote_scope": [
+    "authorized user research workspace",
+    "research-related directory/filename search in user Documents Downloads backups and mounted volumes; unrelated backup contents not accessed"
+  ],
+  "findings": [
+    "Older narrative DeepSeek CSVs recovered; they identify a different model/task and cannot verify later 111-case structured experiment",
+    "Later case-selection, prompt freeze, model environment and saved metrics recovered",
+    "No original structured cases/responses, original matching model weight verification, or raw neural HR predictions found in searched scope"
+  ],
+  "historical_structured_reproduced": false,
+  "search_limit": "No claim to search inaccessible original H200 server or every external backup",
+  "archives": [
+    {
+      "archive": "completed_computation_review_20261022.zip",
+      "sha256": "14f8978a9aadcdbc29106603ad25c859d7e9e86433c5176a342c14812f894db7",
+      "members": 54,
+      "CRC_pass": true,
+      "structured_response_paths": []
+    },
+    {
+      "archive": "final_review_deliverables_20261023.zip",
+      "sha256": "22ea88202974e48f3a277aec634cb8daea25a20fc2ecde8cdc501ad07bd77bf6",
+      "members": 55,
+      "CRC_pass": true,
+      "structured_response_paths": []
+    },
+    {
+      "archive": "revision_evidence_supplement.zip",
+      "sha256": "7cf5371acd20605de37318b007958600bac2ad2a9b357525773d83ab343e7c20",
+      "members": 2297,
+      "CRC_pass": true,
+      "structured_response_paths": []
+    },
+    {
+      "archive": "revision_evidence_supplement.zip",
+      "sha256": "7cf5371acd20605de37318b007958600bac2ad2a9b357525773d83ab343e7c20",
+      "members": 2297,
+      "CRC_pass": true,
+      "structured_response_paths": []
+    },
+    {
+      "archive": "revision_evidence_supplement.zip",
+      "sha256": "7cf5371acd20605de37318b007958600bac2ad2a9b357525773d83ab343e7c20",
+      "members": 2297,
+      "CRC_pass": true,
+      "structured_response_paths": []
+    }
+  ]
+}

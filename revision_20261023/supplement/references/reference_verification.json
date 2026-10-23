@@ -1,0 +1,2299 @@
+[
+  {
+    "reference": 1,
+    "citation": "p184 1. ICT Innovaties Zorg. Dataset: Diabetes Adolescents Time Series with Heart Rate. https://github.com/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate (accessed 12 September 2026; pinned commit in Methods).",
+    "checks": [
+      {
+        "url": "https://github.com/ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate",
+        "status": 200,
+        "bytes": 342692,
+        "title": "GitHub - ictinnovaties-zorg/dataset-diabetes-adolescents-time-series-with-heart-rate · GitHub"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 2,
+    "citation": "p185 2. Collins, G.S.; Moons, K.G.M.; Dhiman, P.; et al. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ 2024, 385, e078378. https://doi.org/10.1136/bmj-2023-078378.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1136/bmj-2023-078378",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "final_check": {
+      "url": "https://api.crossref.org/works/10.1136/bmj-2023-078378?mailto=research@example.org",
+      "status": 200,
+      "sha256": "dd4ed0fb32d26a9f49c453d1e984a946e9946fbe65d50bdfa85f169013d883a4",
+      "metadata": {
+        "title": [
+          "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2772-2316",
+            "authenticated-orcid": false,
+            "given": "Gary S",
+            "family": "Collins",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Centre for Statistics in Medicine, UK EQUATOR Centre, Nuffield Department of Orthopaedics, Rheumatology, and Musculoskeletal Sciences, University of Oxford, Oxford OX3 7LD, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2118-004X",
+            "authenticated-orcid": false,
+            "given": "Karel G M",
+            "family": "Moons",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Julius Centre for Health Sciences and Primary Care, University Medical Centre Utrecht, Utrecht University, Utrecht, Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0989-0623",
+            "authenticated-orcid": false,
+            "given": "Paula",
+            "family": "Dhiman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centre for Statistics in Medicine, UK EQUATOR Centre, Nuffield Department of Orthopaedics, Rheumatology, and Musculoskeletal Sciences, University of Oxford, Oxford OX3 7LD, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8699-0735",
+            "authenticated-orcid": false,
+            "given": "Richard D",
+            "family": "Riley",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Applied Health Research, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK"
+              },
+              {
+                "name": "National Institute for Health and Care Research (NIHR) Birmingham Biomedical Research Centre, Birmingham, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6657-2787",
+            "authenticated-orcid": false,
+            "given": "Andrew L",
+            "family": "Beam",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Epidemiology, Harvard T H Chan School of Public Health, Boston, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1613-7450",
+            "authenticated-orcid": false,
+            "given": "Ben",
+            "family": "Van Calster",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Development and Regeneration, KU Leuven, Leuven, Belgium"
+              },
+              {
+                "name": "Department of Biomedical Data Science, Leiden University Medical Centre, Leiden, Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6349-7251",
+            "authenticated-orcid": false,
+            "given": "Marzyeh",
+            "family": "Ghassemi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electrical Engineering and Computer Science, Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1286-0038",
+            "authenticated-orcid": false,
+            "given": "Xiaoxuan",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Inflammation and Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK"
+              },
+              {
+                "name": "University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4026-4345",
+            "authenticated-orcid": false,
+            "given": "Johannes B",
+            "family": "Reitsma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Julius Centre for Health Sciences and Primary Care, University Medical Centre Utrecht, Utrecht University, Utrecht, Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5529-1541",
+            "authenticated-orcid": false,
+            "given": "Maarten",
+            "family": "van Smeden",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Julius Centre for Health Sciences and Primary Care, University Medical Centre Utrecht, Utrecht University, Utrecht, Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2729-0947",
+            "authenticated-orcid": false,
+            "given": "Anne-Laure",
+            "family": "Boulesteix",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute for Medical Information Processing, Biometry and Epidemiology, Faculty of Medicine, Ludwig-Maximilians-University of Munich and Munich Centre of Machine Learning, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5742-2840",
+            "authenticated-orcid": false,
+            "given": "Jennifer Catherine",
+            "family": "Camaradou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Patient representative, Health Data Research UK patient and public involvement and engagement group"
+              },
+              {
+                "name": "Patient representative, University of East Anglia, Faculty of Health Sciences, Norwich Research Park, Norwich, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6712-6626",
+            "authenticated-orcid": false,
+            "given": "Leo Anthony",
+            "family": "Celi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beth Israel Deaconess Medical Center, Boston, MA, USA"
+              },
+              {
+                "name": "Laboratory for Computational Physiology, Massachusetts Institute of Technology, Cambridge, MA, USA"
+              },
+              {
+                "name": "Department of Biostatistics, Harvard T H Chan School of Public Health, Boston, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9612-7791",
+            "authenticated-orcid": false,
+            "given": "Spiros",
+            "family": "Denaxas",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Health Informatics, University College London, London, UK"
+              },
+              {
+                "name": "British Heart Foundation Data Science Centre, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7849-0087",
+            "authenticated-orcid": false,
+            "given": "Alastair K",
+            "family": "Denniston",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Institute for Health and Care Research (NIHR) Birmingham Biomedical Research Centre, Birmingham, UK"
+              },
+              {
+                "name": "Institute of Inflammation and Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4897-9356",
+            "authenticated-orcid": false,
+            "given": "Ben",
+            "family": "Glocker",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computing, Imperial College London, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7881-1207",
+            "authenticated-orcid": false,
+            "given": "Robert M",
+            "family": "Golub",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Northwestern University Feinberg School of Medicine, Chicago, IL, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4528-1312",
+            "authenticated-orcid": false,
+            "given": "Hugh",
+            "family": "Harvey",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hardian Health, Haywards Heath, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1147-8491",
+            "authenticated-orcid": false,
+            "given": "Georg",
+            "family": "Heinze",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Section for Clinical Biometrics, Centre for Medical Data Science, Medical University of Vienna, Vienna, Austria"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4517-1562",
+            "authenticated-orcid": false,
+            "given": "Michael M",
+            "family": "Hoffman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Princess Margaret Cancer Centre, University Health Network, Toronto, ON, Canada"
+              },
+              {
+                "name": "Department of Medical Biophysics, University of Toronto, Toronto, ON, Canada"
+              },
+              {
+                "name": "Department of Computer Science, University of Toronto, Toronto, ON, Canada"
+              },
+              {
+                "name": "Vector Institute for Artificial Intelligence, Toronto, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5183-131X",
+            "authenticated-orcid": false,
+            "given": "André Pascal",
+            "family": "Kengne",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Medicine, University of Cape Town, Cape Town, South Africa"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Emily",
+            "family": "Lam",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Patient representative, Health Data Research UK patient and public involvement and engagement group"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0100-9659",
+            "authenticated-orcid": false,
+            "given": "Naomi",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Institute for Health and Care Excellence, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1501-2947",
+            "authenticated-orcid": false,
+            "given": "Elizabeth W",
+            "family": "Loder",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The BMJ, London, UK"
+              },
+              {
+                "name": "Department of Neurology, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4910-9368",
+            "authenticated-orcid": false,
+            "given": "Lena",
+            "family": "Maier-Hein",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Intelligent Medical Systems, German Cancer Research Centre, Heidelberg, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4423-6472",
+            "authenticated-orcid": false,
+            "given": "Bilal A",
+            "family": "Mateen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Health Informatics, University College London, London, UK"
+              },
+              {
+                "name": "Wellcome Trust, London, UK"
+              },
+              {
+                "name": "Alan Turing Institute, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6476-2165",
+            "authenticated-orcid": false,
+            "given": "Melissa D",
+            "family": "McCradden",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Bioethics, Hospital for Sick Children Toronto, ON, Canada"
+              },
+              {
+                "name": "Genetics and Genome Biology, SickKids Research Institute, Toronto, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5471-5202",
+            "authenticated-orcid": false,
+            "given": "Lauren",
+            "family": "Oakden-Rayner",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Australian Institute for Machine Learning, University of Adelaide, Adelaide, SA, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6911-2367",
+            "authenticated-orcid": false,
+            "given": "Johan",
+            "family": "Ordish",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Medicines and Healthcare products Regulatory Agency, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0044-3496",
+            "authenticated-orcid": false,
+            "given": "Richard",
+            "family": "Parnell",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Patient representative, Health Data Research UK patient and public involvement and engagement group"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9076-8472",
+            "authenticated-orcid": false,
+            "given": "Sherri",
+            "family": "Rose",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Health Policy and Center for Health Policy, Stanford University, Stanford, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8980-2330",
+            "authenticated-orcid": false,
+            "given": "Karandeep",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Learning Health Sciences, University of Michigan Medical School, Ann Arbor, MI, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3037-122X",
+            "authenticated-orcid": false,
+            "given": "Laure",
+            "family": "Wynants",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Epidemiology, CAPHRI Care and Public Health Research Institute, Maastricht University, Maastricht, Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8708-7003",
+            "authenticated-orcid": false,
+            "given": "Patricia",
+            "family": "Logullo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centre for Statistics in Medicine, UK EQUATOR Centre, Nuffield Department of Orthopaedics, Rheumatology, and Musculoskeletal Sciences, University of Oxford, Oxford OX3 7LD, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              16
+            ]
+          ]
+        },
+        "volume": "385",
+        "page": "e078378",
+        "article-number": null,
+        "DOI": "10.1136/bmj-2023-078378"
+      }
+    },
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 3,
+    "citation": "p186 3. Hossain, M.N.; Kim, J.-N. Multimodal Deep Learning for Real-Time Glucose Prediction with LLM Explainability. J. Korean Inst. Convergence Signal Process. 2026, 27, 143–150. https://doi.org/10.23087/jkicsp.2026.27.3.006.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.23087/jkicsp.2026.27.3.006",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "final_check": {
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003362183",
+      "status": 200,
+      "sha256": "ff0fedf7ba6b0282fb3e7834607f116b3dd354df95f07c1d6c11e2e6fff641e8"
+    },
+    "note": "Supplied DOI did not resolve. KCI verifies title/authors/year/volume/issue/pages; manuscript now cites KCI."
+  },
+  {
+    "reference": 4,
+    "citation": "p187 4. Marling, C.; Bunescu, R. The OhioT1DM Dataset for Blood Glucose Level Prediction: Update 2020. CEUR Workshop Proc. 2020, 2675. https://ceur-ws.org/Vol-2675/paper11.pdf.",
+    "checks": [
+      {
+        "url": "https://ceur-ws.org/Vol-2675/paper11.pdf",
+        "status": 200,
+        "bytes": 480431,
+        "title": null
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 5,
+    "citation": "p188 5. Kolev, M.; Naskinova, I.; Milev, M.; Stoilova, S.; Nikolova, I. A Comprehensive Benchmark of Machine Learning Methods for Blood Glucose Prediction in Type 1 Diabetes: A Multi-Dataset Evaluation. Appl. Sci. 2026, 16, 3928. https://doi.org/10.3390/app16083928.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.3390/app16083928",
+        "status": 200,
+        "bytes": 15591,
+        "title": [
+          "A Comprehensive Benchmark of Machine Learning Methods for Blood Glucose Prediction in Type 1 Diabetes: A Multi-Dataset Evaluation"
+        ],
+        "authors": [
+          {
+            "given": "Mikhail",
+            "family": "Kolev"
+          },
+          {
+            "given": "Irina",
+            "family": "Naskinova"
+          },
+          {
+            "given": "Mariyan",
+            "family": "Milev"
+          },
+          {
+            "given": "Stanislava",
+            "family": "Stoilova"
+          },
+          {
+            "given": "Iveta",
+            "family": "Nikolova"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              17
+            ]
+          ]
+        },
+        "volume": "16",
+        "page": "3928",
+        "article_number": null,
+        "DOI": "10.3390/app16083928"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 6,
+    "citation": "p189 6. Lim, B.; Arık, S.Ö.; Loeff, N.; Pfister, T. Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting. Int. J. Forecast. 2021, 37, 1748–1764. https://arxiv.org/abs/1912.09363.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/1912.09363",
+        "status": 200,
+        "bytes": 42748,
+        "title": "[1912.09363] Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 7,
+    "citation": "p190 7. Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A.N.; Kaiser, Ł.; Polosukhin, I. Attention Is All You Need. Advances in Neural Information Processing Systems 2017, 30. https://arxiv.org/abs/1706.03762.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/1706.03762",
+        "status": 200,
+        "bytes": 44230,
+        "title": "[1706.03762] Attention Is All You Need"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 8,
+    "citation": "p191 8. Chen, T.; Guestrin, C. XGBoost: A Scalable Tree Boosting System. Proc. KDD 2016, 785–794. https://doi.org/10.1145/2939672.2939785.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1145/2939672.2939785",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "final_check": {
+      "url": "https://api.crossref.org/works/10.1145/2939672.2939785?mailto=research@example.org",
+      "status": 200,
+      "sha256": "1091d51714b04ebf8e836a73f4c9fbc3a7d0e22800060fc8b2f26640dacc1010",
+      "metadata": {
+        "title": [
+          "XGBoost"
+        ],
+        "author": [
+          {
+            "given": "Tianqi",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Washington, Seattle, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carlos",
+            "family": "Guestrin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Washington, Seattle, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              13
+            ]
+          ]
+        },
+        "volume": null,
+        "page": "785-794",
+        "article-number": null,
+        "DOI": "10.1145/2939672.2939785"
+      }
+    },
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 9,
+    "citation": "p192 9. Lundberg, S.M.; et al. From local explanations to global understanding with explainable AI for trees. Nat. Mach. Intell. 2020, 2, 56–67. https://doi.org/10.1038/s42256-019-0138-9.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1038/s42256-019-0138-9",
+        "status": 200,
+        "bytes": 17953,
+        "title": [
+          "From local explanations to global understanding with explainable AI for trees"
+        ],
+        "authors": [
+          {
+            "given": "Scott M.",
+            "family": "Lundberg"
+          },
+          {
+            "given": "Gabriel",
+            "family": "Erion"
+          },
+          {
+            "given": "Hugh",
+            "family": "Chen"
+          },
+          {
+            "given": "Alex",
+            "family": "DeGrave"
+          },
+          {
+            "given": "Jordan M.",
+            "family": "Prutkin"
+          },
+          {
+            "given": "Bala",
+            "family": "Nair"
+          },
+          {
+            "given": "Ronit",
+            "family": "Katz"
+          },
+          {
+            "given": "Jonathan",
+            "family": "Himmelfarb"
+          },
+          {
+            "given": "Nisha",
+            "family": "Bansal"
+          },
+          {
+            "given": "Su-In",
+            "family": "Lee"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              17
+            ]
+          ]
+        },
+        "volume": "2",
+        "page": "56-67",
+        "article_number": null,
+        "DOI": "10.1038/s42256-019-0138-9"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 10,
+    "citation": "p193 10. Lu, B.; Liang, Z.; Pontius, R.; Tang, S.; Prioleau, T. GlucoFM-Bench: Benchmarking Time-Series Foundation Models for Blood Glucose Forecasting. arXiv 2026, arXiv:2606.06881, version 1. https://arxiv.org/abs/2606.06881. Preprint.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/2606.06881",
+        "status": 200,
+        "bytes": 44401,
+        "title": "[2606.06881] GlucoFM-Bench: Benchmarking Time-Series Foundation Models for Blood Glucose Forecasting"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 11,
+    "citation": "p194 11. Ansari, A.F.; et al. Chronos-2: From Univariate to Universal Forecasting. arXiv 2025, arXiv:2510.15821. https://arxiv.org/abs/2510.15821. Model and implementation: https://github.com/amazon-science/chronos-forecasting. Preprint.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/2510.15821",
+        "status": 200,
+        "bytes": 46990,
+        "title": "[2510.15821] Chronos-2: From Univariate to Universal Forecasting"
+      },
+      {
+        "url": "https://github.com/amazon-science/chronos-forecasting",
+        "status": 200,
+        "bytes": 367039,
+        "title": "GitHub - amazon-science/chronos-forecasting: Chronos: Pretrained Models for Time Series Forecasting · GitHub"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 12,
+    "citation": "p195 12. Cinar, B.; Maleshkova, M. DiaData: An Integrated Large Dataset for Type 1 Diabetes and Hypoglycemia Research. BIO Web Conf. 2025, 195, 03001. https://doi.org/10.1051/bioconf/202519503001. Data release: https://doi.org/10.5281/zenodo.17285631.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1051/bioconf/202519503001",
+        "status": 200,
+        "bytes": 9762,
+        "title": [
+          "DiaData: An Integrated Large Dataset for Type 1 Diabetes and Hypoglycemia Research"
+        ],
+        "authors": [
+          {
+            "given": "Beyza",
+            "family": "Cinar"
+          },
+          {
+            "given": "Maria",
+            "family": "Maleshkova"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "volume": "195",
+        "page": "03001",
+        "article_number": null,
+        "DOI": "10.1051/bioconf/202519503001"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.5281/zenodo.17285631",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "final_check": {
+      "url": "https://zenodo.org/api/records/17285631",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "note": "Article metadata verified; current Zenodo access blocked locally. Release/license/checksum independently acquired and saved on Spark on 22 October."
+  },
+  {
+    "reference": 13,
+    "citation": "p196 13. Cinar, B.; Maleshkova, M. Benchmarking Hypoglycemia Classification Using Quality-Enhanced DiaData. IEEE J. Biomed. Health Inform. 2025, 29, 8831–8838. https://doi.org/10.1109/JBHI.2025.3620603.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1109/JBHI.2025.3620603",
+        "status": 200,
+        "bytes": 6334,
+        "title": [
+          "Benchmarking Hypoglycemia Classification Using Quality-Enhanced DiaData"
+        ],
+        "authors": [
+          {
+            "given": "Beyza",
+            "family": "Cinar"
+          },
+          {
+            "given": "Maria",
+            "family": "Maleshkova"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "volume": "29",
+        "page": "8831-8838",
+        "article_number": null,
+        "DOI": "10.1109/jbhi.2025.3620603"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 14,
+    "citation": "p197 14. Gupta, V.; Grensing, F.; Cinar, B.; van den Boom, L.; Maleshkova, M. Towards Improved Short-term Hypoglycemia Prediction and Diabetes Management based on Refined Heart Rate Data. arXiv 2026, arXiv:2603.20345. https://arxiv.org/abs/2603.20345. Preprint.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/2603.20345",
+        "status": 200,
+        "bytes": 43812,
+        "title": "[2603.20345] Towards Improved Short-term Hypoglycemia Prediction and Diabetes Management based on Refined Heart Rate Data"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 15,
+    "citation": "p198 15. Alredaini, R.; Abulkhair, M.; Almisbahi, H. Interpretable glucose forecasting for type 2 diabetes across traditional, deep, and large language models. Sci. Rep. 2026, 16, 2421; published online 16 December 2025. https://doi.org/10.1038/s41598-025-32373-4.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41598-025-32373-4",
+        "status": 200,
+        "bytes": 21664,
+        "title": [
+          "Interpretable glucose forecasting for type 2 diabetes across traditional, deep, and large language models"
+        ],
+        "authors": [
+          {
+            "given": "Rawan",
+            "family": "Alredaini"
+          },
+          {
+            "given": "Maysoon",
+            "family": "Abulkhair"
+          },
+          {
+            "given": "Hind",
+            "family": "Almisbahi"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              16
+            ]
+          ]
+        },
+        "volume": "16",
+        "page": null,
+        "article_number": "2421",
+        "DOI": "10.1038/s41598-025-32373-4"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 16,
+    "citation": "p199 16. Mamun, A.; Arefeen, A.; Racette, S.B.; Sears, D.D.; Whisner, C.M.; Buman, M.P.; Ghasemzadeh, H. LLM-Powered Prediction of Hyperglycemia and Discovery of Behavioral Treatment Pathways from Wearables and Diet. Sensors 2025, 25, 5372. https://doi.org/10.3390/s25175372. Author preprint: https://arxiv.org/abs/2503.03935.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.3390/s25175372",
+        "status": 200,
+        "bytes": 22122,
+        "title": [
+          "LLM-Powered Prediction of Hyperglycemia and Discovery of Behavioral Treatment Pathways from Wearables and Diet"
+        ],
+        "authors": [
+          {
+            "given": "Abdullah",
+            "family": "Mamun"
+          },
+          {
+            "given": "Asiful",
+            "family": "Arefeen"
+          },
+          {
+            "given": "Susan B.",
+            "family": "Racette"
+          },
+          {
+            "given": "Dorothy D.",
+            "family": "Sears"
+          },
+          {
+            "given": "Corrie M.",
+            "family": "Whisner"
+          },
+          {
+            "given": "Matthew P.",
+            "family": "Buman"
+          },
+          {
+            "given": "Hassan",
+            "family": "Ghasemzadeh"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              31
+            ]
+          ]
+        },
+        "volume": "25",
+        "page": "5372",
+        "article_number": null,
+        "DOI": "10.3390/s25175372"
+      },
+      {
+        "url": "https://arxiv.org/abs/2503.03935",
+        "status": 200,
+        "bytes": 47122,
+        "title": "[2503.03935] LLM-Powered Prediction of Hyperglycemia and Discovery of Behavioral Treatment Pathways from Wearables and Diet"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 17,
+    "citation": "p200 17. Lundberg, S.M.; Lee, S.-I. A Unified Approach to Interpreting Model Predictions. Advances in Neural Information Processing Systems 2017, 30. https://arxiv.org/abs/1705.07874.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/1705.07874",
+        "status": 200,
+        "bytes": 43338,
+        "title": "[1705.07874] A Unified Approach to Interpreting Model Predictions"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 18,
+    "citation": "p201 18. Miller, T. Explanation in artificial intelligence: Insights from the social sciences. Artif. Intell. 2019, 267, 1–38. https://doi.org/10.1016/j.artint.2018.07.007.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1016/j.artint.2018.07.007",
+        "status": 200,
+        "bytes": 52921,
+        "title": [
+          "Explanation in artificial intelligence: Insights from the social sciences"
+        ],
+        "authors": [
+          {
+            "given": "Tim",
+            "family": "Miller"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              2
+            ]
+          ]
+        },
+        "volume": "267",
+        "page": "1-38",
+        "article_number": null,
+        "DOI": "10.1016/j.artint.2018.07.007"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 19,
+    "citation": "p202 19. Ghassemi, M.; Oakden-Rayner, L.; Beam, A.L. The false hope of current approaches to explainable artificial intelligence in health care. Lancet Digit. Health 2021, 3, e745–e750. https://doi.org/10.1016/S2589-7500(21)00208-9.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1016/S2589-7500(21)00208-9",
+        "status": 200,
+        "bytes": 15989,
+        "title": [
+          "The false hope of current approaches to explainable artificial intelligence in health care"
+        ],
+        "authors": [
+          {
+            "given": "Marzyeh",
+            "family": "Ghassemi"
+          },
+          {
+            "given": "Luke",
+            "family": "Oakden-Rayner"
+          },
+          {
+            "given": "Andrew L",
+            "family": "Beam"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11
+            ]
+          ]
+        },
+        "volume": "3",
+        "page": "e745-e750",
+        "article_number": null,
+        "DOI": "10.1016/s2589-7500(21)00208-9"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 20,
+    "citation": "p203 20. Brown, T.B.; Mann, B.; Ryder, N.; et al. Language Models are Few-Shot Learners. Advances in Neural Information Processing Systems 2020, 33, 1877–1901. https://arxiv.org/abs/2005.14165.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/2005.14165",
+        "status": 200,
+        "bytes": 49631,
+        "title": "[2005.14165] Language Models are Few-Shot Learners"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 21,
+    "citation": "p204 21. Vasey, B.; Nagendran, M.; Campbell, B.; et al. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Nat. Med. 2022, 28, 924–933. https://doi.org/10.1038/s41591-022-01772-9.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41591-022-01772-9",
+        "status": 200,
+        "bytes": 48116,
+        "title": [
+          "Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI"
+        ],
+        "authors": [
+          {
+            "given": "Baptiste",
+            "family": "Vasey"
+          },
+          {
+            "given": "Myura",
+            "family": "Nagendran"
+          },
+          {
+            "given": "Bruce",
+            "family": "Campbell"
+          },
+          {
+            "given": "David A.",
+            "family": "Clifton"
+          },
+          {
+            "given": "Gary S.",
+            "family": "Collins"
+          },
+          {
+            "given": "Spiros",
+            "family": "Denaxas"
+          },
+          {
+            "given": "Alastair K.",
+            "family": "Denniston"
+          },
+          {
+            "given": "Livia",
+            "family": "Faes"
+          },
+          {
+            "given": "Bart",
+            "family": "Geerts"
+          },
+          {
+            "given": "Mudathir",
+            "family": "Ibrahim"
+          },
+          {
+            "given": "Xiaoxuan",
+            "family": "Liu"
+          },
+          {
+            "given": "Bilal A.",
+            "family": "Mateen"
+          },
+          {
+            "given": "Piyush",
+            "family": "Mathur"
+          },
+          {
+            "given": "Melissa D.",
+            "family": "McCradden"
+          },
+          {
+            "given": "Lauren",
+            "family": "Morgan"
+          },
+          {
+            "given": "Johan",
+            "family": "Ordish"
+          },
+          {
+            "given": "Campbell",
+            "family": "Rogers"
+          },
+          {
+            "given": "Suchi",
+            "family": "Saria"
+          },
+          {
+            "given": "Daniel S. W.",
+            "family": "Ting"
+          },
+          {
+            "given": "Peter",
+            "family": "Watkinson"
+          },
+          {
+            "given": "Wim",
+            "family": "Weber"
+          },
+          {
+            "given": "Peter",
+            "family": "Wheatstone"
+          },
+          {
+            "given": "Peter",
+            "family": "McCulloch"
+          },
+          {
+            "given": null,
+            "family": null
+          },
+          {
+            "given": "Aaron Y.",
+            "family": "Lee"
+          },
+          {
+            "given": "Alan G.",
+            "family": "Fraser"
+          },
+          {
+            "given": "Ali",
+            "family": "Connell"
+          },
+          {
+            "given": "Alykhan",
+            "family": "Vira"
+          },
+          {
+            "given": "Andre",
+            "family": "Esteva"
+          },
+          {
+            "given": "Andrew D.",
+            "family": "Althouse"
+          },
+          {
+            "given": "Andrew L.",
+            "family": "Beam"
+          },
+          {
+            "given": "Anne",
+            "family": "de Hond"
+          },
+          {
+            "given": "Anne-Laure",
+            "family": "Boulesteix"
+          },
+          {
+            "given": "Anthony",
+            "family": "Bradlow"
+          },
+          {
+            "given": "Ari",
+            "family": "Ercole"
+          },
+          {
+            "given": "Arsenio",
+            "family": "Paez"
+          },
+          {
+            "given": "Athanasios",
+            "family": "Tsanas"
+          },
+          {
+            "given": "Barry",
+            "family": "Kirby"
+          },
+          {
+            "given": "Ben",
+            "family": "Glocker"
+          },
+          {
+            "given": "Carmelo",
+            "family": "Velardo"
+          },
+          {
+            "given": "Chang Min",
+            "family": "Park"
+          },
+          {
+            "given": "Charisma",
+            "family": "Hehakaya"
+          },
+          {
+            "given": "Chris",
+            "family": "Baber"
+          },
+          {
+            "given": "Chris",
+            "family": "Paton"
+          },
+          {
+            "given": "Christian",
+            "family": "Johner"
+          },
+          {
+            "given": "Christopher J.",
+            "family": "Kelly"
+          },
+          {
+            "given": "Christopher J.",
+            "family": "Vincent"
+          },
+          {
+            "given": "Christopher",
+            "family": "Yau"
+          },
+          {
+            "given": "Clare",
+            "family": "McGenity"
+          },
+          {
+            "given": "Constantine",
+            "family": "Gatsonis"
+          },
+          {
+            "given": "Corinne",
+            "family": "Faivre-Finn"
+          },
+          {
+            "given": "Crispin",
+            "family": "Simon"
+          },
+          {
+            "given": "Danielle",
+            "family": "Sent"
+          },
+          {
+            "given": "Danilo",
+            "family": "Bzdok"
+          },
+          {
+            "given": "Darren",
+            "family": "Treanor"
+          },
+          {
+            "given": "David C.",
+            "family": "Wong"
+          },
+          {
+            "given": "David F.",
+            "family": "Steiner"
+          },
+          {
+            "given": "David",
+            "family": "Higgins"
+          },
+          {
+            "given": "Dawn",
+            "family": "Benson"
+          },
+          {
+            "given": "Declan P.",
+            "family": "O’Regan"
+          },
+          {
+            "given": "Dinesh V.",
+            "family": "Gunasekaran"
+          },
+          {
+            "given": "Dominic",
+            "family": "Danks"
+          },
+          {
+            "given": "Emanuele",
+            "family": "Neri"
+          },
+          {
+            "given": "Evangelia",
+            "family": "Kyrimi"
+          },
+          {
+            "given": "Falk",
+            "family": "Schwendicke"
+          },
+          {
+            "given": "Farah",
+            "family": "Magrabi"
+          },
+          {
+            "given": "Frances",
+            "family": "Ives"
+          },
+          {
+            "given": "Frank E.",
+            "family": "Rademakers"
+          },
+          {
+            "given": "George E.",
+            "family": "Fowler"
+          },
+          {
+            "given": "Giuseppe",
+            "family": "Frau"
+          },
+          {
+            "given": "H. D. Jeffry",
+            "family": "Hogg"
+          },
+          {
+            "given": "Hani J.",
+            "family": "Marcus"
+          },
+          {
+            "given": "Heang-Ping",
+            "family": "Chan"
+          },
+          {
+            "given": "Henry",
+            "family": "Xiang"
+          },
+          {
+            "given": "Hugh F.",
+            "family": "McIntyre"
+          },
+          {
+            "given": "Hugh",
+            "family": "Harvey"
+          },
+          {
+            "given": "Hyungjin",
+            "family": "Kim"
+          },
+          {
+            "given": "Ibrahim",
+            "family": "Habli"
+          },
+          {
+            "given": "James C.",
+            "family": "Fackler"
+          },
+          {
+            "given": "James",
+            "family": "Shaw"
+          },
+          {
+            "given": "Janet",
+            "family": "Higham"
+          },
+          {
+            "given": "Jared M.",
+            "family": "Wohlgemut"
+          },
+          {
+            "given": "Jaron",
+            "family": "Chong"
+          },
+          {
+            "given": "Jean-Emmanuel",
+            "family": "Bibault"
+          },
+          {
+            "given": "Jérémie F.",
+            "family": "Cohen"
+          },
+          {
+            "given": "Jesper",
+            "family": "Kers"
+          },
+          {
+            "given": "Jessica",
+            "family": "Morley"
+          },
+          {
+            "given": "Joachim",
+            "family": "Krois"
+          },
+          {
+            "given": "Joao",
+            "family": "Monteiro"
+          },
+          {
+            "given": "Joel",
+            "family": "Horovitz"
+          },
+          {
+            "given": "John",
+            "family": "Fletcher"
+          },
+          {
+            "given": "Jonathan",
+            "family": "Taylor"
+          },
+          {
+            "given": "Jung Hyun",
+            "family": "Yoon"
+          },
+          {
+            "given": "Karandeep",
+            "family": "Singh"
+          },
+          {
+            "given": "Karel G. M.",
+            "family": "Moons"
+          },
+          {
+            "given": "Kassandra",
+            "family": "Karpathakis"
+          },
+          {
+            "given": "Ken",
+            "family": "Catchpole"
+          },
+          {
+            "given": "Kerenza",
+            "family": "Hood"
+          },
+          {
+            "given": "Konstantinos",
+            "family": "Balaskas"
+          },
+          {
+            "given": "Konstantinos",
+            "family": "Kamnitsas"
+          },
+          {
+            "given": "Laura",
+            "family": "Militello"
+          },
+          {
+            "given": "Laure",
+            "family": "Wynants"
+          },
+          {
+            "given": "Lauren",
+            "family": "Oakden-Rayner"
+          },
+          {
+            "given": "Laurence B.",
+            "family": "Lovat"
+          },
+          {
+            "given": "Luc J. M.",
+            "family": "Smits"
+          },
+          {
+            "given": "Ludwig C.",
+            "family": "Hinske"
+          },
+          {
+            "given": "M. Khair",
+            "family": "ElZarrad"
+          },
+          {
+            "given": "Maarten",
+            "family": "van Smeden"
+          },
+          {
+            "given": "Mara",
+            "family": "Giavina-Bianchi"
+          },
+          {
+            "given": "Mark",
+            "family": "Daley"
+          },
+          {
+            "given": "Mark P.",
+            "family": "Sendak"
+          },
+          {
+            "given": "Mark",
+            "family": "Sujan"
+          },
+          {
+            "given": "Maroeska",
+            "family": "Rovers"
+          },
+          {
+            "given": "Matthew",
+            "family": "DeCamp"
+          },
+          {
+            "given": "Matthew",
+            "family": "Woodward"
+          },
+          {
+            "given": "Matthieu",
+            "family": "Komorowski"
+          },
+          {
+            "given": "Max",
+            "family": "Marsden"
+          },
+          {
+            "given": "Maxine",
+            "family": "Mackintosh"
+          },
+          {
+            "given": "Michael D.",
+            "family": "Abramoff"
+          },
+          {
+            "given": "Miguel Ángel Armengol",
+            "family": "de la Hoz"
+          },
+          {
+            "given": "Neale",
+            "family": "Hambidge"
+          },
+          {
+            "given": "Neil",
+            "family": "Daly"
+          },
+          {
+            "given": "Niels",
+            "family": "Peek"
+          },
+          {
+            "given": "Oliver",
+            "family": "Redfern"
+          },
+          {
+            "given": "Omer F.",
+            "family": "Ahmad"
+          },
+          {
+            "given": "Patrick M.",
+            "family": "Bossuyt"
+          },
+          {
+            "given": "Pearse A.",
+            "family": "Keane"
+          },
+          {
+            "given": "Pedro N. P.",
+            "family": "Ferreira"
+          },
+          {
+            "given": "Petra",
+            "family": "Schnell-Inderst"
+          },
+          {
+            "given": "Pietro",
+            "family": "Mascagni"
+          },
+          {
+            "given": "Prokar",
+            "family": "Dasgupta"
+          },
+          {
+            "given": "Pujun",
+            "family": "Guan"
+          },
+          {
+            "given": "Rachel",
+            "family": "Barnett"
+          },
+          {
+            "given": "Rawen",
+            "family": "Kader"
+          },
+          {
+            "given": "Reena",
+            "family": "Chopra"
+          },
+          {
+            "given": "Ritse M.",
+            "family": "Mann"
+          },
+          {
+            "given": "Rupa",
+            "family": "Sarkar"
+          },
+          {
+            "given": "Saana M.",
+            "family": "Mäenpää"
+          },
+          {
+            "given": "Samuel G.",
+            "family": "Finlayson"
+          },
+          {
+            "given": "Sarah",
+            "family": "Vollam"
+          },
+          {
+            "given": "Sebastian J.",
+            "family": "Vollmer"
+          },
+          {
+            "given": "Seong Ho",
+            "family": "Park"
+          },
+          {
+            "given": "Shakir",
+            "family": "Laher"
+          },
+          {
+            "given": "Shalmali",
+            "family": "Joshi"
+          },
+          {
+            "given": "Siri L.",
+            "family": "van der Meijden"
+          },
+          {
+            "given": "Susan C.",
+            "family": "Shelmerdine"
+          },
+          {
+            "given": "Tien-En",
+            "family": "Tan"
+          },
+          {
+            "given": "Tom J. W.",
+            "family": "Stocker"
+          },
+          {
+            "given": "Valentina",
+            "family": "Giannini"
+          },
+          {
+            "given": "Vince I.",
+            "family": "Madai"
+          },
+          {
+            "given": "Virginia",
+            "family": "Newcombe"
+          },
+          {
+            "given": "Wei Yan",
+            "family": "Ng"
+          },
+          {
+            "given": "Wendy A.",
+            "family": "Rogers"
+          },
+          {
+            "given": "William",
+            "family": "Ogallo"
+          },
+          {
+            "given": "Yoonyoung",
+            "family": "Park"
+          },
+          {
+            "given": "Zane B.",
+            "family": "Perkins"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "volume": "28",
+        "page": "924-933",
+        "article_number": null,
+        "DOI": "10.1038/s41591-022-01772-9"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 22,
+    "citation": "p205 22. Guo, C.; Pleiss, G.; Sun, Y.; Weinberger, K.Q. On Calibration of Modern Neural Networks. Proceedings of Machine Learning Research 2017, 70, 1321–1330. https://proceedings.mlr.press/v70/guo17a.html.",
+    "checks": [
+      {
+        "url": "https://proceedings.mlr.press/v70/guo17a.html",
+        "status": 200,
+        "bytes": 14452,
+        "title": "On Calibration of Modern Neural Networks"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 23,
+    "citation": "p206 23. Geifman, Y.; El-Yaniv, R. Selective Classification for Deep Neural Networks. Advances in Neural Information Processing Systems 2017, 30. https://arxiv.org/abs/1705.08500.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/1705.08500",
+        "status": 200,
+        "bytes": 41840,
+        "title": "[1705.08500] Selective Classification for Deep Neural Networks"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 24,
+    "citation": "p207 24. Angelopoulos, A.N.; Bates, S. A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification. arXiv 2021, arXiv:2107.07511. https://arxiv.org/abs/2107.07511. Preprint.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/2107.07511",
+        "status": 200,
+        "bytes": 46477,
+        "title": "[2107.07511] A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 25,
+    "citation": "p208 25. Khamesian, S.; Arefeen, A.; Thompson, B.M.; Grando, M.A.; Ghasemzadeh, H. AZT1D: A Real-World Dataset for Type 1 Diabetes. Mendeley Data 2025, version 1. https://doi.org/10.17632/gk9m674wcx.1. Dataset report: https://arxiv.org/abs/2506.14789.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.17632/gk9m674wcx.1",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://arxiv.org/abs/2506.14789",
+        "status": 200,
+        "bytes": 44205,
+        "title": "[2506.14789] AZT1D: A Real-World Dataset for Type 1 Diabetes"
+      }
+    ],
+    "final_check": {
+      "url": "https://data.mendeley.com/datasets/gk9m674wcx/1",
+      "status": 200,
+      "sha256": "d5cbcffca57e5cbf2c065375f5726fd4db5e0ea10e5fc8cface5f6b8b3b1eb71"
+    },
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 26,
+    "citation": "p209 26. Kingma, D.P.; Ba, J. Adam: A Method for Stochastic Optimization. International Conference on Learning Representations 2015. https://arxiv.org/abs/1412.6980.",
+    "checks": [
+      {
+        "url": "https://arxiv.org/abs/1412.6980",
+        "status": 200,
+        "bytes": 43830,
+        "title": "[1412.6980] Adam: A Method for Stochastic Optimization"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 27,
+    "citation": "p210 27. DeepSeek-AI. DeepSeek-V4-Flash-0731 model card and local encoding documentation. https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 (accessed 12 September 2026; revision in Methods).",
+    "checks": [
+      {
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "status": 200,
+        "bytes": 290605,
+        "title": "deepseek-ai/DeepSeek-V4-Flash-0731 · Hugging Face"
+      }
+    ],
+    "final_check": {
+      "url": "https://huggingface.co/api/models/nvidia/Qwen3.8-Flash-Next-FP4-Local/revision/b9ce18a6887e18c089fdea8509a33e63429a3300?blobs=true",
+      "status": 200,
+      "sha256": "0ad2c41b75cadcb5c600115a607203bbbd6af969fe61247aa7eab7444b3b62a5"
+    },
+    "note": "Replaced historical DeepSeek citation with pinned NVIDIA Qwen repository; model metadata and all 26 local file identities independently verified."
+  },
+  {
+    "reference": 28,
+    "citation": "p211 28. Min, S.; Krishna, K.; Lyu, X.; Lewis, M.; Yih, W.-t.; Koh, P.W.; Iyyer, M.; Zettlemoyer, L.; Hajishirzi, H. FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation. Proceedings of EMNLP 2023, 12076–12100. https://doi.org/10.18653/v1/2023.emnlp-main.741.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.18653/v1/2023.emnlp-main.741",
+        "status": 200,
+        "bytes": 2713,
+        "title": [
+          "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation"
+        ],
+        "authors": [
+          {
+            "given": "Sewon",
+            "family": "Min"
+          },
+          {
+            "given": "Kalpesh",
+            "family": "Krishna"
+          },
+          {
+            "given": "Xinxi",
+            "family": "Lyu"
+          },
+          {
+            "given": "Mike",
+            "family": "Lewis"
+          },
+          {
+            "given": "Wen-tau",
+            "family": "Yih"
+          },
+          {
+            "given": "Pang",
+            "family": "Koh"
+          },
+          {
+            "given": "Mohit",
+            "family": "Iyyer"
+          },
+          {
+            "given": "Luke",
+            "family": "Zettlemoyer"
+          },
+          {
+            "given": "Hannaneh",
+            "family": "Hajishirzi"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "volume": null,
+        "page": "12076-12100",
+        "article_number": null,
+        "DOI": "10.18653/v1/2023.emnlp-main.741"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 29,
+    "citation": "p212 29. Clarke, W.L.; Cox, D.; Gonder-Frederick, L.A.; Carter, W.; Pohl, S.L. Evaluating Clinical Accuracy of Systems for Self-Monitoring of Blood Glucose. Diabetes Care 1987, 10, 622–628. https://doi.org/10.2337/diacare.10.5.622.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.2337/diacare.10.5.622",
+        "status": 200,
+        "bytes": 5118,
+        "title": [
+          "Evaluating Clinical Accuracy of Systems for Self-Monitoring of Blood Glucose"
+        ],
+        "authors": [
+          {
+            "given": "William L",
+            "family": "Clarke"
+          },
+          {
+            "given": "Daniel",
+            "family": "Cox"
+          },
+          {
+            "given": "Linda A",
+            "family": "Gonder-Frederick"
+          },
+          {
+            "given": "William",
+            "family": "Carter"
+          },
+          {
+            "given": "Stephen L",
+            "family": "Pohl"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1987,
+              9,
+              1
+            ]
+          ]
+        },
+        "volume": "10",
+        "page": "622-628",
+        "article_number": null,
+        "DOI": "10.2337/diacare.10.5.622"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 30,
+    "citation": "p213 30. Efron, B. Bootstrap Methods: Another Look at the Jackknife. Ann. Stat. 1979, 7, 1–26. https://doi.org/10.1214/aos/1176344552.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1214/aos/1176344552",
+        "status": 200,
+        "bytes": 2732,
+        "title": [
+          "Bootstrap Methods: Another Look at the Jackknife"
+        ],
+        "authors": [
+          {
+            "given": "B.",
+            "family": "Efron"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1979,
+              1,
+              1
+            ]
+          ]
+        },
+        "volume": "7",
+        "page": "1-26",
+        "article_number": null,
+        "DOI": "10.1214/aos/1176344552"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 31,
+    "citation": "p214 31. Holm, S. A Simple Sequentially Rejective Multiple Test Procedure. Scand. J. Stat. 1979, 6, 65–70. https://www.jstor.org/stable/4615733.",
+    "checks": [
+      {
+        "url": "https://www.jstor.org/stable/4615733",
+        "status": 200,
+        "bytes": 3038,
+        "title": "Client Challenge"
+      }
+    ],
+    "final_check": {
+      "url": "https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf",
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>"
+    },
+    "note": "JSTOR challenge and university mirror timeout retained. Bibliographic identity matches primary-paper indexed title/author/year/volume/pages; publisher full-text access not verified."
+  },
+  {
+    "reference": 32,
+    "citation": "p215 32. Bengio, Y.; Grandvalet, Y. No Unbiased Estimator of the Variance of K-Fold Cross-Validation. J. Mach. Learn. Res. 2004, 5, 1089–1105. https://jmlr.org/papers/v5/grandvalet04a.html.",
+    "checks": [
+      {
+        "url": "https://jmlr.org/papers/v5/grandvalet04a.html",
+        "status": 200,
+        "bytes": 2860,
+        "title": null
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 33,
+    "citation": "p216 33. Varoquaux, G. Cross-validation failure: Small sample sizes lead to large error bars. NeuroImage 2018, 180, 68–77. https://doi.org/10.1016/j.neuroimage.2017.06.061.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1016/j.neuroimage.2017.06.061",
+        "status": 200,
+        "bytes": 19882,
+        "title": [
+          "Cross-validation failure: Small sample sizes lead to large error bars"
+        ],
+        "authors": [
+          {
+            "given": "Gaël",
+            "family": "Varoquaux"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              10
+            ]
+          ]
+        },
+        "volume": "180",
+        "page": "68-77",
+        "article_number": null,
+        "DOI": "10.1016/j.neuroimage.2017.06.061"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  },
+  {
+    "reference": 34,
+    "citation": "p217 34. Riley, R.D.; Snell, K.I.E.; Archer, L.; Ensor, J.; Debray, T.P.A.; van Calster, B.; van Smeden, M.; Collins, G.S. Evaluation of clinical prediction models (part 3): calculating the sample size required for an external validation study. BMJ 2024, 384, e074821. https://doi.org/10.1136/bmj-2023-074821.",
+    "checks": [
+      {
+        "url": "https://api.crossref.org/works/10.1136/bmj-2023-074821",
+        "status": 200,
+        "bytes": 9199,
+        "title": [
+          "Evaluation of clinical prediction models (part 3): calculating the sample size required for an external validation study"
+        ],
+        "authors": [
+          {
+            "given": "Richard D",
+            "family": "Riley"
+          },
+          {
+            "given": "Kym I E",
+            "family": "Snell"
+          },
+          {
+            "given": "Lucinda",
+            "family": "Archer"
+          },
+          {
+            "given": "Joie",
+            "family": "Ensor"
+          },
+          {
+            "given": "Thomas P A",
+            "family": "Debray"
+          },
+          {
+            "given": "Ben",
+            "family": "van Calster"
+          },
+          {
+            "given": "Maarten",
+            "family": "van Smeden"
+          },
+          {
+            "given": "Gary S",
+            "family": "Collins"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              22
+            ]
+          ]
+        },
+        "volume": "384",
+        "page": "e074821",
+        "article_number": null,
+        "DOI": "10.1136/bmj-2023-074821"
+      }
+    ],
+    "note": "Identity checked; successful HTTP alone is not full-text or claim verification."
+  }
+]

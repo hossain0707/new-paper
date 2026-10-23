@@ -1,0 +1,27 @@
+{
+  "Qwen": {
+    "development": {
+      "cases": 24,
+      "LLM_requests": 192,
+      "deterministic": 24,
+      "raw_validation_matches": 216,
+      "prompt_schema_matches": 192,
+      "summary_matches": true
+    },
+    "test": {
+      "cases": 111,
+      "LLM_requests": 888,
+      "deterministic": 111,
+      "raw_validation_matches": 999,
+      "prompt_schema_matches": 888,
+      "summary_matches": true
+    }
+  },
+  "participant_overlap": 0,
+  "examples_development_only": true,
+  "frozen_validator_sha256": "78019ae3a78a70352325f85c0756d9d036d189c30bd08a564913d7cfd4fa93cc",
+  "stack_fit_manifests": 690,
+  "validation_only_weight_sets": 138,
+  "representative_checkpoints": 10,
+  "historical_DeepSeek_reproduced": false
+}

@@ -1,0 +1,13 @@
+{
+  "fit_manifests": 690,
+  "all_source_protocol_and_metadata_hashes_match": true,
+  "all_690_configurations_match_best_validation_score": true,
+  "source_hashes": {
+    "code_sha256": "9f007cecf3a9ab22c83dd08ea85f25135a36ea550e559b205c698add12cc5e38",
+    "base_code_sha256": "3bc3730c0dee1c67c8149f9c0f82b03e8e7ef7175288d88fde9e4ee958668b6d",
+    "deep_code_sha256": "aa33559b1416b98a39fda3c414f381d81f6da71f398595db26b0f5fcab1add30",
+    "protocol_sha256": "72b550c1a0020696fae6dabf337010ab216a35006de34450ac6277a1689bc25e"
+  }
+}
+
+STDERR

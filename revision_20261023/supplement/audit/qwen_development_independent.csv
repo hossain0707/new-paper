@@ -1,0 +1,10 @@
+arm,n,accepted,median_request_s,errors
+deterministic,24,24,2.7583999326452613e-05,0
+few_calculated_plain,24,19,3.7591111385008844,0
+few_calculated_schema,24,20,3.102042631500808,0
+few_supplied_plain,24,24,3.800844766501541,0
+few_supplied_schema,24,24,3.090210500999092,0
+zero_calculated_plain,24,23,3.4734621860006882,0
+zero_calculated_schema,24,23,3.12230401549823,0
+zero_supplied_plain,24,24,3.4102696900044975,0
+zero_supplied_schema,24,24,3.04296850350147,0
